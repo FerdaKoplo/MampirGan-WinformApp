@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="Json\" />
+    <Folder Include="Service\" />
+    <Folder Include="Utils\" />
+    <Folder Include="Factory\" />
+    <Folder Include="Presenter\" />
+    <Folder Include="Views\Forms\Admin\" />
+    <Folder Include="Views\Forms\Customer\" />
+    <Folder Include="Views\Interfaces\" />
+  </ItemGroup>
+
+</Project>
