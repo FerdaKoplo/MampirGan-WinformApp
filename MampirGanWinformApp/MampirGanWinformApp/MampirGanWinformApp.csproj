@@ -9,14 +9,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Model\" />
+    <Folder Include="DTOs\Order\" />
     <Folder Include="Json\" />
+    <Folder Include="StateEnums\" />
     <Folder Include="Service\" />
     <Folder Include="Utils\" />
     <Folder Include="Factory\" />
     <Folder Include="Presenter\" />
     <Folder Include="Views\Forms\Admin\" />
-    <Folder Include="Views\Forms\Customer\" />
     <Folder Include="Views\Interfaces\" />
   </ItemGroup>
 
