@@ -9,15 +9,22 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Model\" />
-    <Folder Include="Json\" />
-    <Folder Include="Service\" />
-    <Folder Include="Utils\" />
+    <Content Include="Json\CategoryDummy.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DTOs\Order\" />
+    <Folder Include="StateEnums\" />
     <Folder Include="Factory\" />
-    <Folder Include="Presenter\" />
     <Folder Include="Views\Forms\Admin\" />
-    <Folder Include="Views\Forms\Customer\" />
-    <Folder Include="Views\Interfaces\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Json\ProductDummy.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
