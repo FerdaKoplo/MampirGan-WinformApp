@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MampirGanWinformApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b0cf68b88af231c7c014c509ecf0c0bc7f93cbe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe215381f9836c86e2598627204a3084701591d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("MampirGanWinformApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MampirGanWinformApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

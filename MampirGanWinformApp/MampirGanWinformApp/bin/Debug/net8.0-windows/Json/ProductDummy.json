@@ -1,0 +1,28 @@
+﻿[
+    {
+        "ProductId": 1,
+        "ProductName": "Indomie Goreng",
+        "Price": 3000,
+        "Stock": 50,
+        "ProductImageUrl": null,
+        "CategoryId": 1,
+        "Category": {
+            "CategoryId": 1,
+            "CategoryName": "Makanan",
+            "CategoryDescription": "Makanan ringan"
+        }
+    },
+    {
+        "ProductId": 2,
+        "ProductName": "Aqua Botol",
+        "Price": 4000,
+        "Stock": 100,
+        "ProductImageUrl": null,
+        "CategoryId": 2,
+        "Category": {
+            "CategoryId": 2,
+            "CategoryName": "Minuman",
+            "CategoryDescription": "Minuman segar"
+        }
+    }
+]

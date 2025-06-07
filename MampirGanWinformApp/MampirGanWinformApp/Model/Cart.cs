@@ -8,8 +8,8 @@ namespace MampirGanWinformApp.Model
 {
     public class Cart
     {
-        public int cartID { get; set; }
-        public int productID { get; set; }
+        public int CartId { get; set; }
+        public int ProductId { get; set; }
         public List<Product> Products { get; set; } = new();
         public int Quantity { get; set; }
 

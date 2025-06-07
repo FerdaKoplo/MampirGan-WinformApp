@@ -12,9 +12,36 @@ namespace MampirGanWinformApp.UIComponents
 {
     public partial class ProductCard : UserControl
     {
+
+
         public ProductCard()
         {
             InitializeComponent();
+        
         }
+        public string ProductNameLabel
+        {
+            get => LblProductName.Text;
+            set => LblProductName.Text = value; 
+        }
+
+        public string CategoryLabel
+        {
+            get => LblCategory.Text;
+            set => LblCategory.Text = value;
+        }
+
+        public string PriceLabel
+        {
+            get => LblPrice.Text;
+            set => LblPrice.Text = value;
+        }
+
+        public Image ProductImage
+        {
+            get => pictureBox1.Image;
+            set => pictureBox1.Image = value;
+        }
+
     }
 }
