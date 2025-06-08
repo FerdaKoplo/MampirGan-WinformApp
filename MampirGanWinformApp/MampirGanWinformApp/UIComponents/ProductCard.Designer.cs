@@ -33,6 +33,7 @@
             LblCategory = new Label();
             LblPrice = new Label();
             LblProductName = new Label();
+            LblLihat = new Label();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -56,12 +57,13 @@
             // splitContainer1.Panel2
             // 
             splitContainer1.Panel2.BackColor = Color.White;
+            splitContainer1.Panel2.Controls.Add(LblLihat);
             splitContainer1.Panel2.Controls.Add(LblCategory);
             splitContainer1.Panel2.Controls.Add(LblPrice);
             splitContainer1.Panel2.Controls.Add(LblProductName);
             splitContainer1.Panel2MinSize = 100;
-            splitContainer1.Size = new Size(297, 448);
-            splitContainer1.SplitterDistance = 268;
+            splitContainer1.Size = new Size(297, 578);
+            splitContainer1.SplitterDistance = 313;
             splitContainer1.TabIndex = 0;
             // 
             // pictureBox1
@@ -103,13 +105,24 @@
             LblProductName.TabIndex = 0;
             LblProductName.Text = "label1";
             // 
+            // LblLihat
+            // 
+            LblLihat.AutoSize = true;
+            LblLihat.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            LblLihat.Location = new Point(111, 208);
+            LblLihat.Name = "LblLihat";
+            LblLihat.Size = new Size(62, 30);
+            LblLihat.TabIndex = 3;
+            LblLihat.Text = "Lihat";
+            LblLihat.Click += LblLihat_Click;
+            // 
             // ProductCard
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(splitContainer1);
             Name = "ProductCard";
-            Size = new Size(297, 448);
+            Size = new Size(297, 578);
             splitContainer1.Panel1.ResumeLayout(false);
             splitContainer1.Panel2.ResumeLayout(false);
             splitContainer1.Panel2.PerformLayout();
@@ -126,5 +139,6 @@
         private Label LblProductName;
         private Label LblPrice;
         private Label LblCategory;
+        private Label LblLihat;
     }
 }

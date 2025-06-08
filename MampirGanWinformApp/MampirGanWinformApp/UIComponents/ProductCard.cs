@@ -7,22 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MampirGanWinformApp.Model;
 
 namespace MampirGanWinformApp.UIComponents
 {
     public partial class ProductCard : UserControl
     {
-
-
         public ProductCard()
         {
             InitializeComponent();
-        
+
         }
         public string ProductNameLabel
         {
             get => LblProductName.Text;
-            set => LblProductName.Text = value; 
+            set => LblProductName.Text = value;
         }
 
         public string CategoryLabel
@@ -43,5 +42,13 @@ namespace MampirGanWinformApp.UIComponents
             set => pictureBox1.Image = value;
         }
 
+        public event EventHandler DetailClicked;
+
+        public Product ProductDetailData { get; set; }
+
+        private void LblLihat_Click(object sender, EventArgs e)
+        {
+            DetailClicked?.Invoke(this, EventArgs.Empty);
+        }
     }
 }
