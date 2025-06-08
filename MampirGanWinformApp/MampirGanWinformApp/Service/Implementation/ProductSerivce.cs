@@ -24,10 +24,12 @@ namespace MampirGanWinformApp.Service.Implementation
             return _Loader.Products;
         }
 
-        public List<Product> GetByCategory(string Category)
+        public List<Product> GetByCategory(List<string> CategoryName)
         {
-            return _Loader.Products.Where(p => p.
-            Categories.Any(c => c.CategoryName.Equals(Category, StringComparison.OrdinalIgnoreCase))).ToList();
+            return _Loader.Products
+             .Where(p => p.Category != null &&
+             CategoryName.Any(InputCategory => p.Category.CategoryName.Equals(InputCategory, StringComparison.OrdinalIgnoreCase)))
+        .    ToList();
         }
     }
 }

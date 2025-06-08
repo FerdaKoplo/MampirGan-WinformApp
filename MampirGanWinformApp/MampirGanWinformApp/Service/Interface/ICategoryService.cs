@@ -7,12 +7,8 @@ using MampirGanWinformApp.Model;
 
 namespace MampirGanWinformApp.Service.Interface
 {
-    public interface IProductService
+    public interface ICategoryService
     {
-        List<Product> GetAllProducts();
-        List<Product> GetByCategory(List<string> CategoryName);
-
-        //List<Product> GetProductById(int id);
-
+        List<Category> GetAllCategories();
     }
 }
