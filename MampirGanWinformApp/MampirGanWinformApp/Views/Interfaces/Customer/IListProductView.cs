@@ -10,7 +10,6 @@ namespace MampirGanWinformApp.Views.Interfaces.Customer
     public interface IListProductView
     {
         void DisplayProducts(List<Product> Products);
-        string SelectedCategory { get; }
-        event EventHandler CategoryChanged;
+        void DisplayCategories(List<Category> Categories);
     }
 }

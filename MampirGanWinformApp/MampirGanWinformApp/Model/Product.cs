@@ -14,6 +14,6 @@ namespace MampirGanWinformApp.Model
         public decimal Price { get; set; }
         public int Stok { get; set; }
         public int CategoryId { get; set; }
-        public List<Category> Categories { get; set; } = new();
+        public Category Category { get; set; }
     }
 }

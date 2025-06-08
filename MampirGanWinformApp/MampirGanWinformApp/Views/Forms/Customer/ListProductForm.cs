@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MampirGanWinformApp.Model;
 using MampirGanWinformApp.Presenter;
+using MampirGanWinformApp.Service.Implementation;
+using MampirGanWinformApp.Service.Interface;
 using MampirGanWinformApp.UIComponents;
 using MampirGanWinformApp.Utils;
 using MampirGanWinformApp.Views.Interfaces.Customer;
@@ -22,35 +24,29 @@ namespace MampirGanWinformApp.Views.Forms.Customer
         {
             InitializeComponent();
             string JsonProductPath = "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\ProductDummy.json";
-            //string JsonCategoryPath = "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\CategoryDummy.json";
-
+            string JsonCategoryPath = "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\CategoryDummy.json";
             var ProductLoader = new LoadProductListJson(JsonProductPath);
-            ProductLoader.Load();
-            var Products = ProductLoader.Products;
+            var CategoryLoader = new LoadCategoryJson(JsonCategoryPath);
 
-            //var CategoryLoader = new LoadCategoryJson(JsonCategoryPath);
-            //CategoryLoader.Load();
-            //var categories = CategoryLoader.Categories;
+            IProductService ProductService = new ProductService(ProductLoader);
+            ICategoryService CategoryService = new CategoryService(CategoryLoader);
 
-            //foreach (var Product in Products)
-            //{
-            //    Product.Categories = categories
-            //        .Where(c => c.CategoryId == Product.CategoryId)
-            //        .ToList();
-            //}
+            _ListProductPresenter = new ListProductPresenter(this, ProductService, CategoryService);
 
-            RenderProductCards(Products);
+            _ListProductPresenter.LoadAllCategories();
+            _ListProductPresenter.LoadProduct();
 
         }
 
-        private void RenderProductCards(List<Product> Products)
+        public void DisplayProducts(List<Product> Products)
         {
+            FlowLayoutPanelListProduct.Controls.Clear();
             foreach (var Product in Products)
             {
                 var Card = new ProductCard();
 
                 Card.ProductNameLabel = Product.ProductName;
-                Card.CategoryLabel = Product.Categories.FirstOrDefault()?.CategoryName ?? "Unknown";
+                Card.CategoryLabel = Product.Category?.CategoryName ?? "Tidak ditemukan";
                 Card.PriceLabel = $"Rp {Product.Price : 0}";
 
                 if (File.Exists(Product.ProductImageUrl))
@@ -60,7 +56,38 @@ namespace MampirGanWinformApp.Views.Forms.Customer
 
                 FlowLayoutPanelListProduct.Controls.Add(Card);
             }
-            
+        }
+
+        public void DisplayCategories(List<Category> Categories)
+        {
+            foreach (var Category in Categories)
+            {
+                CheckBox CB = new CheckBox();
+                CB.Text = Category.CategoryName;
+                CB.Tag = Category;
+                CB.AutoSize = true;
+                CB.CheckedChanged += CategoryCheckBox_CheckedChanged;
+
+                FlowLayoutCategoryPanel.Controls.Add(CB);
+
+            }
+
+        }
+
+        public void CategoryCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            var SelectedCategories = FlowLayoutCategoryPanel.Controls.OfType<CheckBox>()
+                .Where(cb => cb.Checked).Select(cb => cb.Text).ToList();
+
+            if (SelectedCategories.Count > 0)
+            {
+                _ListProductPresenter.LoadProductByCategory(SelectedCategories);
+            }
+
+            else
+            {
+                _ListProductPresenter.LoadProduct();
+            }
         }
 
         private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)

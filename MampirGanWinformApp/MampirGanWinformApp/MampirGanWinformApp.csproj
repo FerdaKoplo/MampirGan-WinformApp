@@ -16,7 +16,6 @@
 
   <ItemGroup>
     <Folder Include="DTOs\Order\" />
-    <Folder Include="StateEnums\" />
     <Folder Include="Factory\" />
     <Folder Include="Views\Forms\Admin\" />
   </ItemGroup>
