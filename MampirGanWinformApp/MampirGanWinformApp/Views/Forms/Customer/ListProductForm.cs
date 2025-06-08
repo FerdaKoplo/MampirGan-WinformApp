@@ -20,11 +20,12 @@ namespace MampirGanWinformApp.Views.Forms.Customer
     public partial class ListProductForm : Form, IListProductView
     {
         private ListProductPresenter _ListProductPresenter;
+        string JsonProductPath = "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\ProductDummy.json";
+        string JsonCategoryPath = "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\CategoryDummy.json";
         public ListProductForm()
         {
             InitializeComponent();
-            string JsonProductPath = "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\ProductDummy.json";
-            string JsonCategoryPath = "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\CategoryDummy.json";
+            
             var ProductLoader = new LoadProductListJson(JsonProductPath);
             var CategoryLoader = new LoadCategoryJson(JsonCategoryPath);
 
@@ -47,12 +48,28 @@ namespace MampirGanWinformApp.Views.Forms.Customer
 
                 Card.ProductNameLabel = Product.ProductName;
                 Card.CategoryLabel = Product.Category?.CategoryName ?? "Tidak ditemukan";
-                Card.PriceLabel = $"Rp {Product.Price : 0}";
+                Card.PriceLabel = $"Rp {Product.Price: 0}";
+                Card.ProductDetailData = Product;
 
                 if (File.Exists(Product.ProductImageUrl))
                 {
                     Card.ProductImage = Image.FromFile(Product.ProductImageUrl);
                 }
+
+                Card.DetailClicked += (State, Event) =>
+                {
+                    var ClickedCard = State as ProductCard;
+                    if (ClickedCard == null) return;
+
+                    IDetailProductVIew DetailVIew = new DetailProductForm();
+                    IProductService ProductService = new ProductService(new LoadProductListJson(JsonProductPath));
+
+                    var DetailPresenter = new DetailProductPresenter(DetailVIew, ProductService);
+                    DetailPresenter.LoadProductDetail(ClickedCard.ProductDetailData.ProductId);
+
+                    ((Form)DetailVIew).Show();
+                    this.Hide();
+                };
 
                 FlowLayoutPanelListProduct.Controls.Add(Card);
             }

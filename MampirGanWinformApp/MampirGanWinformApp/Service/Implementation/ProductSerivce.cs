@@ -31,5 +31,10 @@ namespace MampirGanWinformApp.Service.Implementation
              CategoryName.Any(InputCategory => p.Category.CategoryName.Equals(InputCategory, StringComparison.OrdinalIgnoreCase)))
         .    ToList();
         }
+
+        public Product GetProductById(int ProductId)
+        {
+            return _Loader.Products.FirstOrDefault(Product => Product.ProductId == ProductId);
+        }
     }
 }

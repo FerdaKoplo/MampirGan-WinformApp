@@ -12,7 +12,6 @@ namespace MampirGanWinformApp.Service.Interface
         List<Product> GetAllProducts();
         List<Product> GetByCategory(List<string> CategoryName);
 
-        //List<Product> GetProductById(int id);
-
+        Product GetProductById(int ProductId);
     }
 }
