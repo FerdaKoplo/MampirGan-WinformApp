@@ -33,7 +33,6 @@
             Quantity = new Label();
             LblTotalPrice = new Label();
             BtnDelete = new Button();
-            flowLayoutPanel1 = new FlowLayoutPanel();
             SuspendLayout();
             // 
             // BtnDecrease
@@ -90,19 +89,11 @@
             BtnDelete.Text = "X";
             BtnDelete.UseVisualStyleBackColor = false;
             // 
-            // flowLayoutPanel1
-            // 
-            flowLayoutPanel1.Location = new Point(56, 21);
-            flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(139, 172);
-            flowLayoutPanel1.TabIndex = 16;
-            // 
             // CartItem
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            Controls.Add(flowLayoutPanel1);
             Controls.Add(BtnDelete);
             Controls.Add(LblTotalPrice);
             Controls.Add(BtnDecrease);
@@ -122,6 +113,5 @@
         private Label Price;
         private Label LblTotalPrice;
         private Button BtnDelete;
-        private FlowLayoutPanel flowLayoutPanel1;
     }
 }

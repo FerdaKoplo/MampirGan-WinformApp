@@ -7,7 +7,7 @@ using MampirGanWinformApp.Model;
 
 namespace MampirGanWinformApp.Service.Interface
 {
-    internal interface ICartService
+    public interface ICartService
     {
         List<Cart> GetAllCarts();
         Cart AddItem(int ProductId, int Quantity);

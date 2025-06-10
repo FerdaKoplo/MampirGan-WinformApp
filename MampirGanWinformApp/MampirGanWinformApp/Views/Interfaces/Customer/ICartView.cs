@@ -7,7 +7,7 @@ using MampirGanWinformApp.Model;
 
 namespace MampirGanWinformApp.Views.Interfaces.Customer
 {
-    internal interface ICartView
+    public interface ICartView
     {
         void DisplayCart(List<Cart> Carts);
     }
