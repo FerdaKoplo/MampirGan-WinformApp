@@ -28,84 +28,73 @@
         /// </summary>
         private void InitializeComponent()
         {
-            decrease = new Button();
-            increase = new Button();
+            BtnDecrease = new Button();
+            BtnIncrease = new Button();
             Quantity = new Label();
-            Price = new Label();
-            label2 = new Label();
-            Delete = new Button();
+            LblTotalPrice = new Label();
+            BtnDelete = new Button();
             flowLayoutPanel1 = new FlowLayoutPanel();
             SuspendLayout();
             // 
-            // decrease
+            // BtnDecrease
             // 
-            decrease.BackColor = Color.White;
-            decrease.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            decrease.Location = new Point(454, 67);
-            decrease.Name = "decrease";
-            decrease.Size = new Size(40, 45);
-            decrease.TabIndex = 12;
-            decrease.Text = "-";
-            decrease.UseVisualStyleBackColor = false;
+            BtnDecrease.BackColor = Color.White;
+            BtnDecrease.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            BtnDecrease.Location = new Point(437, 84);
+            BtnDecrease.Name = "BtnDecrease";
+            BtnDecrease.Size = new Size(40, 45);
+            BtnDecrease.TabIndex = 12;
+            BtnDecrease.Text = "-";
+            BtnDecrease.UseVisualStyleBackColor = false;
             // 
-            // increase
+            // BtnIncrease
             // 
-            increase.BackColor = Color.White;
-            increase.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            increase.Location = new Point(576, 67);
-            increase.Name = "increase";
-            increase.Size = new Size(40, 45);
-            increase.TabIndex = 11;
-            increase.Text = "+";
-            increase.UseVisualStyleBackColor = false;
+            BtnIncrease.BackColor = Color.White;
+            BtnIncrease.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            BtnIncrease.Location = new Point(559, 84);
+            BtnIncrease.Name = "BtnIncrease";
+            BtnIncrease.Size = new Size(40, 45);
+            BtnIncrease.TabIndex = 11;
+            BtnIncrease.Text = "+";
+            BtnIncrease.UseVisualStyleBackColor = false;
             // 
             // Quantity
             // 
             Quantity.AutoSize = true;
             Quantity.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Quantity.Location = new Point(524, 75);
+            Quantity.Location = new Point(507, 92);
             Quantity.Name = "Quantity";
             Quantity.Size = new Size(23, 28);
             Quantity.TabIndex = 10;
             Quantity.Text = "0";
             // 
-            // Price
+            // LblTotalPrice
             // 
-            Price.AutoSize = true;
-            Price.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Price.Location = new Point(881, 75);
-            Price.Name = "Price";
-            Price.Size = new Size(23, 28);
-            Price.TabIndex = 13;
-            Price.Text = "0";
+            LblTotalPrice.AutoSize = true;
+            LblTotalPrice.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            LblTotalPrice.Location = new Point(822, 92);
+            LblTotalPrice.Name = "LblTotalPrice";
+            LblTotalPrice.Size = new Size(56, 28);
+            LblTotalPrice.TabIndex = 14;
+            LblTotalPrice.Text = "9999";
             // 
-            // label2
+            // BtnDelete
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(839, 75);
-            label2.Name = "label2";
-            label2.Size = new Size(36, 28);
-            label2.TabIndex = 14;
-            label2.Text = "Rp";
-            // 
-            // Delete
-            // 
-            Delete.BackColor = Color.White;
-            Delete.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Delete.ForeColor = Color.Red;
-            Delete.Location = new Point(1163, 67);
-            Delete.Name = "Delete";
-            Delete.Size = new Size(40, 45);
-            Delete.TabIndex = 15;
-            Delete.Text = "X";
-            Delete.UseVisualStyleBackColor = false;
+            BtnDelete.BackColor = Color.White;
+            BtnDelete.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            BtnDelete.ForeColor = Color.Red;
+            BtnDelete.Location = new Point(1146, 84);
+            BtnDelete.Name = "BtnDelete";
+            BtnDelete.Size = new Size(40, 45);
+            BtnDelete.TabIndex = 15;
+            BtnDelete.Text = "X";
+            BtnDelete.UseVisualStyleBackColor = false;
             // 
             // flowLayoutPanel1
             // 
             flowLayoutPanel1.Location = new Point(56, 21);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(139, 141);
+            flowLayoutPanel1.Size = new Size(139, 172);
             flowLayoutPanel1.TabIndex = 16;
             // 
             // CartItem
@@ -114,26 +103,25 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             Controls.Add(flowLayoutPanel1);
-            Controls.Add(Delete);
-            Controls.Add(label2);
-            Controls.Add(Price);
-            Controls.Add(decrease);
-            Controls.Add(increase);
+            Controls.Add(BtnDelete);
+            Controls.Add(LblTotalPrice);
+            Controls.Add(BtnDecrease);
+            Controls.Add(BtnIncrease);
             Controls.Add(Quantity);
             Name = "CartItem";
-            Size = new Size(1280, 178);
+            Size = new Size(1280, 213);
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button decrease;
-        private Button increase;
+        private Button BtnDecrease;
+        private Button BtnIncrease;
         private Label Quantity;
         private Label Price;
-        private Label label2;
-        private Button Delete;
+        private Label LblTotalPrice;
+        private Button BtnDelete;
         private FlowLayoutPanel flowLayoutPanel1;
     }
 }

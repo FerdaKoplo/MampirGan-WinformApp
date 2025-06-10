@@ -24,5 +24,44 @@
             "CategoryName": "Minuman",
             "CategoryDescription": "Minuman segar"
         }
+    },
+    {
+        "ProductId": 3,
+        "ProductName": "Aqua Botol",
+        "Price": 4000,
+        "Stock": 100,
+        "ProductImageUrl": null,
+        "CategoryId": 2,
+        "Category": {
+            "CategoryId": 2,
+            "CategoryName": "Minuman",
+            "CategoryDescription": "Minuman segar"
+        }
+    },
+    {
+        "ProductId": 4,
+        "ProductName": "Aqua Botol",
+        "Price": 4000,
+        "Stock": 100,
+        "ProductImageUrl": null,
+        "CategoryId": 2,
+        "Category": {
+            "CategoryId": 2,
+            "CategoryName": "Minuman",
+            "CategoryDescription": "Minuman segar"
+        }
+    },
+    {
+        "ProductId": 5,
+        "ProductName": "Aqua Botol",
+        "Price": 4000,
+        "Stock": 100,
+        "ProductImageUrl": null,
+        "CategoryId": 2,
+        "Category": {
+            "CategoryId": 2,
+            "CategoryName": "Minuman",
+            "CategoryDescription": "Minuman segar"
+        }
     }
 ]

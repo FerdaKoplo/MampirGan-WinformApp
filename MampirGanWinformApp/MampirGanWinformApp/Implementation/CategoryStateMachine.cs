@@ -7,7 +7,7 @@ using System.Transactions;
 using MampirGanWinformApp.StateMachine.Event;
 using MampirGanWinformApp.StateMachine.State;
 
-namespace MampirGanWinformApp.StateMachine.Implementation
+namespace MampirGanWinformApp.Implementation
 {
     public class CategoryStateMachine
     {

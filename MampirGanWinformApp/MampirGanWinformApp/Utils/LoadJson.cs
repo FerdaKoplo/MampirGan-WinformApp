@@ -47,4 +47,21 @@ namespace MampirGanWinformApp.Utils
         }
     }
 
+    public class LoadCartJson : ILoadJson
+    {
+        private readonly string _FilePath;
+        public List<Cart> Carts { get; set; }
+
+        public LoadCartJson(string FilePath)
+        {
+            _FilePath = FilePath;
+        }
+
+        public void Load()
+        {
+            var JsonString = File.ReadAllText(_FilePath);
+            Carts = JsonSerializer.Deserialize<List<Cart>>(JsonString);
+        }
+    }
+
 }
