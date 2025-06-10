@@ -38,6 +38,7 @@
             label2 = new Label();
             label1 = new Label();
             panel2 = new Panel();
+            FlowLayoutCartItemPanel = new FlowLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -68,6 +69,7 @@
             // panel1
             // 
             panel1.BackColor = Color.White;
+            panel1.Controls.Add(FlowLayoutCartItemPanel);
             panel1.Controls.Add(button1);
             panel1.Controls.Add(label6);
             panel1.Controls.Add(label5);
@@ -161,6 +163,13 @@
             panel2.Size = new Size(572, 417);
             panel2.TabIndex = 0;
             // 
+            // FlowLayoutCartItemPanel
+            // 
+            FlowLayoutCartItemPanel.Location = new Point(26, 239);
+            FlowLayoutCartItemPanel.Name = "FlowLayoutCartItemPanel";
+            FlowLayoutCartItemPanel.Size = new Size(1104, 615);
+            FlowLayoutCartItemPanel.TabIndex = 1;
+            // 
             // CartForm
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -190,5 +199,6 @@
         private Label label5;
         private Label label4;
         private Button button1;
+        private FlowLayoutPanel FlowLayoutCartItemPanel;
     }
 }

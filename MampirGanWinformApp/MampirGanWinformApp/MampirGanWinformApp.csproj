@@ -17,7 +17,18 @@
   <ItemGroup>
     <Folder Include="DTOs\Order\" />
     <Folder Include="Factory\" />
+    <Folder Include="UIComponents\ErrorModal\" />
+    <Folder Include="UIComponents\ConfirmationModal\" />
     <Folder Include="Views\Forms\Admin\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="UIComponents\CartItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UIComponents\ProductCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>

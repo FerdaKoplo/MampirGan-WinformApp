@@ -30,10 +30,10 @@
         {
             splitContainer1 = new SplitContainer();
             pictureBox1 = new PictureBox();
-            LblCategory = new Label();
-            LblPrice = new Label();
-            LblProductName = new Label();
             LblLihat = new Label();
+            LblCategory = new Label();
+            LblProductName = new Label();
+            LblPrice = new Label();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -52,58 +52,30 @@
             // 
             splitContainer1.Panel1.BackColor = Color.PeachPuff;
             splitContainer1.Panel1.Controls.Add(pictureBox1);
-            splitContainer1.Panel1MinSize = 200;
+            splitContainer1.Panel1.Paint += splitContainer1_Panel1_Paint;
+            splitContainer1.Panel1MinSize = 70;
             // 
             // splitContainer1.Panel2
             // 
             splitContainer1.Panel2.BackColor = Color.White;
             splitContainer1.Panel2.Controls.Add(LblLihat);
             splitContainer1.Panel2.Controls.Add(LblCategory);
-            splitContainer1.Panel2.Controls.Add(LblPrice);
             splitContainer1.Panel2.Controls.Add(LblProductName);
-            splitContainer1.Panel2MinSize = 100;
-            splitContainer1.Size = new Size(297, 578);
-            splitContainer1.SplitterDistance = 313;
+            splitContainer1.Panel2.Controls.Add(LblPrice);
+            splitContainer1.Panel2MinSize = 70;
+            splitContainer1.Size = new Size(196, 278);
+            splitContainer1.SplitterDistance = 130;
             splitContainer1.TabIndex = 0;
             // 
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.Location = new Point(28, 27);
+            pictureBox1.Location = new Point(45, 19);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(239, 210);
+            pictureBox1.Size = new Size(102, 99);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
-            // 
-            // LblCategory
-            // 
-            LblCategory.AutoSize = true;
-            LblCategory.ForeColor = SystemColors.ControlDarkDark;
-            LblCategory.Location = new Point(28, 50);
-            LblCategory.Name = "LblCategory";
-            LblCategory.Size = new Size(70, 25);
-            LblCategory.TabIndex = 2;
-            LblCategory.Text = "#label3";
-            // 
-            // LblPrice
-            // 
-            LblPrice.AutoSize = true;
-            LblPrice.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            LblPrice.Location = new Point(28, 116);
-            LblPrice.Name = "LblPrice";
-            LblPrice.Size = new Size(105, 45);
-            LblPrice.TabIndex = 1;
-            LblPrice.Text = "label2";
-            // 
-            // LblProductName
-            // 
-            LblProductName.AutoSize = true;
-            LblProductName.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            LblProductName.Location = new Point(24, 0);
-            LblProductName.Name = "LblProductName";
-            LblProductName.Size = new Size(104, 41);
-            LblProductName.TabIndex = 0;
-            LblProductName.Text = "label1";
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // LblLihat
             // 
@@ -116,13 +88,43 @@
             LblLihat.Text = "Lihat";
             LblLihat.Click += LblLihat_Click;
             // 
+            // LblCategory
+            // 
+            LblCategory.AutoSize = true;
+            LblCategory.ForeColor = SystemColors.ControlDarkDark;
+            LblCategory.Location = new Point(27, 36);
+            LblCategory.Name = "LblCategory";
+            LblCategory.Size = new Size(70, 25);
+            LblCategory.TabIndex = 2;
+            LblCategory.Text = "#label3";
+            // 
+            // LblProductName
+            // 
+            LblProductName.AutoSize = true;
+            LblProductName.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            LblProductName.Location = new Point(27, 11);
+            LblProductName.Name = "LblProductName";
+            LblProductName.Size = new Size(63, 25);
+            LblProductName.TabIndex = 0;
+            LblProductName.Text = "label1";
+            // 
+            // LblPrice
+            // 
+            LblPrice.AutoSize = true;
+            LblPrice.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            LblPrice.Location = new Point(27, 95);
+            LblPrice.Name = "LblPrice";
+            LblPrice.Size = new Size(65, 28);
+            LblPrice.TabIndex = 1;
+            LblPrice.Text = "label2";
+            // 
             // ProductCard
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(splitContainer1);
             Name = "ProductCard";
-            Size = new Size(297, 578);
+            Size = new Size(196, 278);
             splitContainer1.Panel1.ResumeLayout(false);
             splitContainer1.Panel2.ResumeLayout(false);
             splitContainer1.Panel2.PerformLayout();

@@ -31,12 +31,18 @@
             splitContainer1 = new SplitContainer();
             FlowLayoutCategoryPanel = new FlowLayoutPanel();
             label1 = new Label();
+            panel1 = new Panel();
+            panel2 = new Panel();
             LblTitle = new Label();
             FlowLayoutPanelListProduct = new FlowLayoutPanel();
+            label2 = new Label();
+            flowLayoutPanel1 = new FlowLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
             splitContainer1.SuspendLayout();
+            panel1.SuspendLayout();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // splitContainer1
@@ -55,6 +61,7 @@
             // splitContainer1.Panel2
             // 
             splitContainer1.Panel2.BackColor = Color.White;
+            splitContainer1.Panel2.Controls.Add(panel1);
             splitContainer1.Panel2.Controls.Add(LblTitle);
             splitContainer1.Panel2.Controls.Add(FlowLayoutPanelListProduct);
             splitContainer1.Size = new Size(1898, 1024);
@@ -78,6 +85,25 @@
             label1.TabIndex = 1;
             label1.Text = "Kategori";
             // 
+            // panel1
+            // 
+            panel1.BackColor = Color.WhiteSmoke;
+            panel1.Controls.Add(panel2);
+            panel1.Location = new Point(848, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(646, 1024);
+            panel1.TabIndex = 5;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.White;
+            panel2.Controls.Add(flowLayoutPanel1);
+            panel2.Controls.Add(label2);
+            panel2.Location = new Point(3, 0);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(647, 1024);
+            panel2.TabIndex = 6;
+            // 
             // LblTitle
             // 
             LblTitle.AutoSize = true;
@@ -93,8 +119,25 @@
             FlowLayoutPanelListProduct.AutoScroll = true;
             FlowLayoutPanelListProduct.Location = new Point(28, 265);
             FlowLayoutPanelListProduct.Name = "FlowLayoutPanelListProduct";
-            FlowLayoutPanelListProduct.Size = new Size(1441, 733);
+            FlowLayoutPanelListProduct.Size = new Size(804, 733);
             FlowLayoutPanelListProduct.TabIndex = 0;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI Semibold", 16F, FontStyle.Bold);
+            label2.Location = new Point(454, 190);
+            label2.Name = "label2";
+            label2.Size = new Size(168, 45);
+            label2.TabIndex = 3;
+            label2.Text = "Keranjang";
+            // 
+            // flowLayoutPanel1
+            // 
+            flowLayoutPanel1.Location = new Point(20, 265);
+            flowLayoutPanel1.Name = "flowLayoutPanel1";
+            flowLayoutPanel1.Size = new Size(602, 756);
+            flowLayoutPanel1.TabIndex = 4;
             // 
             // ListProductForm
             // 
@@ -110,6 +153,9 @@
             splitContainer1.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
             splitContainer1.ResumeLayout(false);
+            panel1.ResumeLayout(false);
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -120,5 +166,9 @@
         private Label LblTitle;
         private Label label1;
         private FlowLayoutPanel FlowLayoutCategoryPanel;
+        private Panel panel1;
+        private Panel panel2;
+        private FlowLayoutPanel flowLayoutPanel1;
+        private Label label2;
     }
 }

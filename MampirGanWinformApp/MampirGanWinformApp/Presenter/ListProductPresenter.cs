@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MampirGanWinformApp.Implementation;
 using MampirGanWinformApp.Service.Implementation;
 using MampirGanWinformApp.Service.Interface;
 using MampirGanWinformApp.StateMachine.Event;
-using MampirGanWinformApp.StateMachine.Implementation;
 using MampirGanWinformApp.Views.Interfaces.Customer;
 
 namespace MampirGanWinformApp.Presenter
@@ -23,7 +23,6 @@ namespace MampirGanWinformApp.Presenter
             _ProductView = ProductView;
             _ProductService = ProductService;
             _CategoryService = CategoryService;
-
             _CategoryStateMachine = new CategoryStateMachine(); 
         }
 

@@ -1,5 +1,4 @@
 C:\Users\IVAN\Documents\Project_C#\MampirGan-WinformApp\MampirGanWinformApp\MampirGanWinformApp\obj\Debug\net8.0-windows\MampirGanWinformApp.UIComponents.ProductCard.resources
-C:\Users\IVAN\Documents\Project_C#\MampirGan-WinformApp\MampirGanWinformApp\MampirGanWinformApp\obj\Debug\net8.0-windows\MampirGanWinformApp.UIComponents.Spinner.resources
 C:\Users\IVAN\Documents\Project_C#\MampirGan-WinformApp\MampirGanWinformApp\MampirGanWinformApp\obj\Debug\net8.0-windows\MampirGanWinformApp.csproj.GenerateResource.cache
 C:\Users\IVAN\Documents\Project_C#\MampirGan-WinformApp\MampirGanWinformApp\MampirGanWinformApp\obj\Debug\net8.0-windows\MampirGanWinformApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\IVAN\Documents\Project_C#\MampirGan-WinformApp\MampirGanWinformApp\MampirGanWinformApp\obj\Debug\net8.0-windows\MampirGanWinformApp.AssemblyInfoInputs.cache
