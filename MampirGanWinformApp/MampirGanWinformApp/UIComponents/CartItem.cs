@@ -74,5 +74,10 @@
         {
             CheckoutClicked?.Invoke(this, ProductId);
         }
+
+        private void LblTotalPrice_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

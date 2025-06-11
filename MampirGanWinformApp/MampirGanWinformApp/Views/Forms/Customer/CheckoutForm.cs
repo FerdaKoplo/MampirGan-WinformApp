@@ -27,17 +27,17 @@ namespace MampirGanWinformApp.Views.Forms.Customer
             string JsonCartPath = "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\CartData.json";
             string JsonOrderPath = "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\OrderData.json";
 
-            var productLoader = new LoadProductListJson(JsonProductPath);
-            productLoader.Load(); 
-            var cartLoader = new LoadCartJson(JsonCartPath, productLoader.Products);
-            var cartSaver = new SaveCartJson(JsonCartPath);
-            var orderSaver = new SaveOrderJson(JsonOrderPath);
+            var ProductLoader = new LoadProductListJson(JsonProductPath);
+            ProductLoader.Load(); 
+            var CartLoader = new LoadCartJson(JsonCartPath, ProductLoader.Products);
+            var CartSaver = new SaveCartJson(JsonCartPath);
+            var OrderSaver = new SaveOrderJson(JsonOrderPath);
 
-            var productService = new ProductService(productLoader);
-            var cartService = new CartService(cartSaver, cartLoader, productService);
-            var checkoutService = new CheckoutService(cartLoader, orderSaver, cartService);
+            var ProductService = new ProductService(ProductLoader);
+            var CartService = new CartService(CartSaver, CartLoader, ProductService);
+            var CheckoutService = new CheckoutService(CartLoader, OrderSaver, CartService);
 
-            _CheckoutPresenter = new CheckoutPresenter(this, checkoutService);
+            _CheckoutPresenter = new CheckoutPresenter(this, CheckoutService);
 
             BtnCheckout.Click += BtnCheckout_Click;
         }

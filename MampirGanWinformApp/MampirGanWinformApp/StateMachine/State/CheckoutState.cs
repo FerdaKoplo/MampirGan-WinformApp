@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace MampirGanWinformApp.StateMachine.State
 {
-    public class CheckoutState
+    public enum CheckoutState
     {
+        Idle,
+        ViewingCart,
+        Confirming,
+        Processing,
+        Completed,
+        Failed
     }
 }

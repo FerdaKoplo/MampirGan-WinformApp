@@ -31,7 +31,7 @@ namespace MampirGanWinformApp.Views.Forms.Customer
         public ListProductForm()
         {
             InitializeComponent();
-            
+
             var ProductLoader = new LoadProductListJson(JsonProductPath);
             var CategoryLoader = new LoadCategoryJson(JsonCategoryPath);
 
@@ -87,7 +87,7 @@ namespace MampirGanWinformApp.Views.Forms.Customer
                     DetailVIew.AddToCart += (ProductId, Quantity) =>
                     {
                         _CartPresenter.AddToCart(ProductId, Quantity);
-                        _CartPresenter.LoadCarts(); 
+                        _CartPresenter.LoadCarts();
                     };
                 };
 
@@ -141,7 +141,7 @@ namespace MampirGanWinformApp.Views.Forms.Customer
                     _CartPresenter.RemoveFromCart(ProductId);
                     MessageBox.Show("Berhasil dihapus");
                     _CartPresenter.LoadCarts();
-                    
+
                 };
 
                 CartItem.CheckoutClicked += (Sender, ProductId) =>
@@ -158,6 +158,11 @@ namespace MampirGanWinformApp.Views.Forms.Customer
             }
         }
         private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
         }

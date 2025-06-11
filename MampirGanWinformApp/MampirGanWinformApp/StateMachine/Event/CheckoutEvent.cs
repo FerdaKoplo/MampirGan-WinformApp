@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace MampirGanWinformApp.StateMachine.Event
 {
-    internal class CheckoutEvent
+    public enum CheckoutEvent
     {
+        ViewCart,
+        ConfirmCheckout,
+        Pay,
+        Success,
+        Restart,
+        Exit,
+        Reset
     }
 }
