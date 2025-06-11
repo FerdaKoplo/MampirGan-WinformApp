@@ -59,7 +59,7 @@ namespace MampirGanWinformApp.Views.Forms.Customer
 
         private void BtnDecrease_Click(object sender, EventArgs e)
         {
-            if(SelectedQuantity> 1)
+            if (SelectedQuantity > 1)
             {
                 SelectedQuantity--;
                 LblQty.Text = SelectedQuantity.ToString();
@@ -70,6 +70,11 @@ namespace MampirGanWinformApp.Views.Forms.Customer
         private void UpdateTotal()
         {
             LblTotalPrice.Text = $"Rp {(SelectedQuantity * Price): 0}";
+        }
+
+        private void LblPrice_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

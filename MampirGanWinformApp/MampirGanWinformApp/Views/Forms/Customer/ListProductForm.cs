@@ -25,7 +25,7 @@ namespace MampirGanWinformApp.Views.Forms.Customer
         public ListProductForm()
         {
             InitializeComponent();
-            
+
             var ProductLoader = new LoadProductListJson(JsonProductPath);
             var CategoryLoader = new LoadCategoryJson(JsonCategoryPath);
 
@@ -108,6 +108,16 @@ namespace MampirGanWinformApp.Views.Forms.Customer
         }
 
         private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void ListProductForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LblTitle_Click(object sender, EventArgs e)
         {
 
         }

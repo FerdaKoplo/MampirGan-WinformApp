@@ -16,5 +16,10 @@ namespace MampirGanWinformApp.Views.Forms.Customer
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -30,6 +30,7 @@
         {
             splitContainer1 = new SplitContainer();
             panel1 = new Panel();
+            FlowLayoutCartItemPanel = new FlowLayoutPanel();
             button1 = new Button();
             label6 = new Label();
             label5 = new Label();
@@ -38,7 +39,6 @@
             label2 = new Label();
             label1 = new Label();
             panel2 = new Panel();
-            FlowLayoutCartItemPanel = new FlowLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -50,6 +50,7 @@
             // 
             splitContainer1.Dock = DockStyle.Fill;
             splitContainer1.Location = new Point(0, 0);
+            splitContainer1.Margin = new Padding(2, 2, 2, 2);
             splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -62,8 +63,9 @@
             // 
             splitContainer1.Panel2.BackColor = Color.White;
             splitContainer1.Panel2.Controls.Add(panel2);
-            splitContainer1.Size = new Size(1898, 1024);
-            splitContainer1.SplitterDistance = 1250;
+            splitContainer1.Size = new Size(1518, 819);
+            splitContainer1.SplitterDistance = 999;
+            splitContainer1.SplitterWidth = 3;
             splitContainer1.TabIndex = 0;
             // 
             // panel1
@@ -77,16 +79,26 @@
             panel1.Controls.Add(label3);
             panel1.Controls.Add(label2);
             panel1.Controls.Add(label1);
-            panel1.Location = new Point(41, 107);
+            panel1.Location = new Point(33, 86);
+            panel1.Margin = new Padding(2, 2, 2, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1169, 879);
+            panel1.Size = new Size(935, 703);
             panel1.TabIndex = 0;
+            // 
+            // FlowLayoutCartItemPanel
+            // 
+            FlowLayoutCartItemPanel.Location = new Point(21, 191);
+            FlowLayoutCartItemPanel.Margin = new Padding(2, 2, 2, 2);
+            FlowLayoutCartItemPanel.Name = "FlowLayoutCartItemPanel";
+            FlowLayoutCartItemPanel.Size = new Size(883, 492);
+            FlowLayoutCartItemPanel.TabIndex = 1;
             // 
             // button1
             // 
             button1.Location = new Point(0, 0);
+            button1.Margin = new Padding(2, 2, 2, 2);
             button1.Name = "button1";
-            button1.Size = new Size(112, 34);
+            button1.Size = new Size(90, 27);
             button1.TabIndex = 7;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
@@ -95,9 +107,10 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.Location = new Point(828, 160);
+            label6.Location = new Point(662, 128);
+            label6.Margin = new Padding(2, 0, 2, 0);
             label6.Name = "label6";
-            label6.Size = new Size(115, 28);
+            label6.Size = new Size(98, 23);
             label6.TabIndex = 5;
             label6.Text = "Total Harga";
             // 
@@ -105,9 +118,10 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(491, 160);
+            label5.Location = new Point(393, 128);
+            label5.Margin = new Padding(2, 0, 2, 0);
             label5.Name = "label5";
-            label5.Size = new Size(77, 28);
+            label5.Size = new Size(65, 23);
             label5.TabIndex = 4;
             label5.Text = "Jumlah";
             // 
@@ -115,9 +129,10 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(122, 160);
+            label4.Location = new Point(98, 128);
+            label4.Margin = new Padding(2, 0, 2, 0);
             label4.Name = "label4";
-            label4.Size = new Size(83, 28);
+            label4.Size = new Size(70, 23);
             label4.TabIndex = 3;
             label4.Text = "Product";
             // 
@@ -126,9 +141,10 @@
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 10F);
             label3.ForeColor = Color.Red;
-            label3.Location = new Point(942, 55);
+            label3.Location = new Point(754, 44);
+            label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
-            label3.Size = new Size(188, 28);
+            label3.Size = new Size(165, 23);
             label3.TabIndex = 2;
             label3.Text = "Bersihkan Keranjang";
             // 
@@ -137,9 +153,10 @@
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 10F);
             label2.ForeColor = Color.DarkGray;
-            label2.Location = new Point(225, 55);
+            label2.Location = new Point(180, 44);
+            label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(77, 28);
+            label2.Size = new Size(65, 23);
             label2.TabIndex = 1;
             label2.Text = "(label2)";
             // 
@@ -147,35 +164,32 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 20F, FontStyle.Bold);
-            label1.Location = new Point(26, 35);
+            label1.Location = new Point(21, 28);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(205, 54);
+            label1.Size = new Size(177, 46);
             label1.TabIndex = 0;
             label1.Text = "Keranjang";
+            label1.Click += label1_Click;
             // 
             // panel2
             // 
             panel2.BackColor = Color.Gainsboro;
             panel2.BorderStyle = BorderStyle.FixedSingle;
             panel2.Font = new Font("Segoe UI", 9F);
-            panel2.Location = new Point(37, 107);
+            panel2.Location = new Point(30, 86);
+            panel2.Margin = new Padding(2, 2, 2, 2);
             panel2.Name = "panel2";
-            panel2.Size = new Size(572, 417);
+            panel2.Size = new Size(458, 334);
             panel2.TabIndex = 0;
-            // 
-            // FlowLayoutCartItemPanel
-            // 
-            FlowLayoutCartItemPanel.Location = new Point(26, 239);
-            FlowLayoutCartItemPanel.Name = "FlowLayoutCartItemPanel";
-            FlowLayoutCartItemPanel.Size = new Size(1104, 615);
-            FlowLayoutCartItemPanel.TabIndex = 1;
             // 
             // CartForm
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1898, 1024);
+            ClientSize = new Size(1518, 819);
             Controls.Add(splitContainer1);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "CartForm";
             Text = "CartForm";
             splitContainer1.Panel1.ResumeLayout(false);

@@ -12,7 +12,7 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\IVAN\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\HP VICTUS\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\IVAN\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
