@@ -28,6 +28,22 @@ namespace MampirGanWinformApp.Utils
             var JsonString = JsonSerializer.Serialize(Carts);
             File.WriteAllText(_FilePath, JsonString);
         }
+    }
 
+    public class SaveOrderJson : SaveToJson
+    {
+        private readonly string _FilePath;
+        public List<Order> Orders { get; set; } = new List<Order>();
+
+        public SaveOrderJson(string FilePath)
+        {
+            _FilePath = FilePath;
+        }
+
+        public void Save()
+        {
+            var JsonString = JsonSerializer.Serialize(Orders);
+            File.WriteAllText(_FilePath, JsonString);
+        }
     }
 }

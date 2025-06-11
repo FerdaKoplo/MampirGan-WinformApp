@@ -21,3 +21,4 @@ C:\Users\IVAN\Documents\Project_C#\MampirGan-WinformApp\MampirGanWinformApp\Mamp
 C:\Users\IVAN\Documents\Project_C#\MampirGan-WinformApp\MampirGanWinformApp\MampirGanWinformApp\obj\Debug\net8.0-windows\MampirGanWinformApp.UIComponents.CartItem.resources
 C:\Users\IVAN\Documents\Project_C#\MampirGan-WinformApp\MampirGanWinformApp\MampirGanWinformApp\bin\Debug\net8.0-windows\Json\CategoryDummy.json
 C:\Users\IVAN\Documents\Project_C#\MampirGan-WinformApp\MampirGanWinformApp\MampirGanWinformApp\bin\Debug\net8.0-windows\Json\ProductDummy.json
+C:\Users\IVAN\Documents\Project_C#\MampirGan-WinformApp\MampirGanWinformApp\MampirGanWinformApp\bin\Debug\net8.0-windows\Json\OrderData.json

@@ -52,8 +52,6 @@ namespace MampirGanWinformApp.Views.Forms.Customer
             _ListProductPresenter.LoadAllCategories();
             _ListProductPresenter.LoadProduct();
             _CartPresenter.LoadCarts();
-
-
         }
 
         public void DisplayProducts(List<Product> Products)
@@ -110,7 +108,6 @@ namespace MampirGanWinformApp.Views.Forms.Customer
                 FlowLayoutCategoryPanel.Controls.Add(CB);
             }
         }
-
         public void CategoryCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             var SelectedCategories = FlowLayoutCategoryPanel.Controls.OfType<CheckBox>()
@@ -120,7 +117,6 @@ namespace MampirGanWinformApp.Views.Forms.Customer
             {
                 _ListProductPresenter.LoadProductByCategory(SelectedCategories);
             }
-
             else
             {
                 _ListProductPresenter.LoadProduct();
@@ -146,6 +142,16 @@ namespace MampirGanWinformApp.Views.Forms.Customer
                     MessageBox.Show("Berhasil dihapus");
                     _CartPresenter.LoadCarts();
                     
+                };
+
+                CartItem.CheckoutClicked += (Sender, ProductId) =>
+                {
+                    var CartToCheckout = Carts.FirstOrDefault(c => c.ProductId == ProductId);
+                    if (CartToCheckout != null)
+                    {
+                        ICheckoutView CheckoutView = new CheckoutForm(CartToCheckout);
+                        ((Form)CheckoutView).Show();
+                    }
                 };
 
                 flowLayoutCartPanel.Controls.Add(CartItem);

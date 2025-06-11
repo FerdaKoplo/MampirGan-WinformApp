@@ -1,0 +1,36 @@
+[
+    {
+        "OrderId": 0,
+        "UserId": 1,
+        "Date": "2025-06-11T21:29:10.5278575+07:00",
+        "TotalAmount": 16000,
+        "OrderItem": [
+            {
+                "OrderId": 0,
+                "ProductId": 2,
+                "ProductName": "Aqua Botol",
+                "UnitPrice": 16000,
+                "Quantity": 4,
+                "Cart": {
+                    "CartId": 1,
+                    "ProductId": 2,
+                    "Quantity": 4,
+                    "Product": {
+                        "ProductId": 2,
+                        "ProductImageUrl": null,
+                        "ProductName": "Aqua Botol",
+                        "Price": 4000,
+                        "Stock": 100,
+                        "CategoryId": 2,
+                        "Category": {
+                            "CategoryId": 2,
+                            "CategoryName": "Minuman",
+                            "CategoryDescription": "Minuman segar"
+                        }
+                    },
+                    "TotalPriceItem": 16000
+                }
+            }
+        ]
+    }
+]

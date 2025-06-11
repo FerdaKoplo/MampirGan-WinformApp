@@ -10,7 +10,6 @@ namespace MampirGanWinformApp.Views.Interfaces.Customer
     public interface IDetailProductVIew
     {
         void DisplayDetailProduct(Product Product);
-        event Action<int,  int> AddToCart;
-        DialogResult ShowDialog();
+        event Action<int, int> AddToCart;
     }
 }

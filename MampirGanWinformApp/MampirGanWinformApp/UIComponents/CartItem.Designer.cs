@@ -94,6 +94,7 @@
             BtnCheckout.TabIndex = 5;
             BtnCheckout.Text = "Checkout";
             BtnCheckout.UseVisualStyleBackColor = false;
+            BtnCheckout.Click += BtnCheckout_Click;
             // 
             // BtnRemoveCart
             // 

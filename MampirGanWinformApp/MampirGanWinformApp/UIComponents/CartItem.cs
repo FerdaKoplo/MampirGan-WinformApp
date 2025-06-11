@@ -11,62 +11,68 @@
 
     namespace MampirGanWinformApp.UIComponents
     {
-        public partial class CartItem : UserControl
+    public partial class CartItem : UserControl
+    {
+        public event EventHandler<int> RemoveCartClicked;
+        public event EventHandler<int> CheckoutClicked;
+        public int SelectedQuantity = 1;
+        public decimal Price = 0;
+        public int ProductId { get; set; }
+
+        public CartItem()
         {
-            public int SelectedQuantity = 1;
-            public decimal Price = 0;
-            public event EventHandler<int> RemoveCartClicked;
-            public int ProductId { get; set; }
+            InitializeComponent();
+        }
 
-            public CartItem()
-            {
-                InitializeComponent();
-            }
+        public string ProductNameLabel
+        {
+            get => LblProductName.Text;
+            set => LblProductName.Text = value;
+        }
 
-            public string ProductNameLabel
-            {
-                get => LblProductName.Text;
-                set => LblProductName.Text = value;
-            }
+        public string TotalPrice
+        {
+            get => LblTotalPrice.Text;
+            set => LblTotalPrice.Text = value;
+        }
 
-            public string TotalPrice
-            {
-                get => LblTotalPrice.Text;
-                set => LblTotalPrice.Text = value;
-            }
+        public string Quantity
+        {
+            get => LblQty.Text;
+            set => LblQty.Text = value;
+        }
 
-            public string Quantity
-            {
-                get => LblQty.Text;
-                set => LblQty.Text = value;
-            }
+        private void BtnIncrease_Click(object sender, EventArgs e)
+        {
+            SelectedQuantity++;
+            LblQty.Text = SelectedQuantity.ToString();
+            UpdateTotal();
 
-            private void BtnIncrease_Click(object sender, EventArgs e)
+        }
+
+        private void BtnDecrease_Click(object sender, EventArgs e)
+        {
+            if (SelectedQuantity > 1)
             {
-                SelectedQuantity++;
+                SelectedQuantity--;
                 LblQty.Text = SelectedQuantity.ToString();
                 UpdateTotal();
-
-            }
-
-            private void BtnDecrease_Click(object sender, EventArgs e)
-            {
-                if (SelectedQuantity > 1)
-                {
-                    SelectedQuantity--;
-                    LblQty.Text = SelectedQuantity.ToString();
-                    UpdateTotal();
-                }
-            }
-
-            private void UpdateTotal()
-            {
-                LblTotalPrice.Text = $"Rp {(SelectedQuantity * Price): 0}";
-            }
-
-            private void BtnRemoveCart_Click(object sender, EventArgs e)
-            {
-                RemoveCartClicked?.Invoke(this, ProductId);
             }
         }
+
+        private void UpdateTotal()
+        {
+            LblTotalPrice.Text = $"Rp {(SelectedQuantity * Price): 0}";
+        }
+
+        private void BtnRemoveCart_Click(object sender, EventArgs e)
+        {
+            RemoveCartClicked?.Invoke(this, ProductId);
+        }
+
+        private void BtnCheckout_Click(object sender, EventArgs e)
+        {
+            CheckoutClicked?.Invoke(this, ProductId);
+        }
     }
+}

@@ -12,6 +12,6 @@ namespace MampirGanWinformApp.Model
         public int UserId { get; set; } 
         public DateTime Date { get; set; }
         public decimal TotalAmount { get; set; }
-        public List<OrderItem> Items { get; set; } = new();
+        public List<OrderItem> OrderItem { get; set; } = new();
     }
 }
