@@ -11,6 +11,7 @@ namespace MampirGanWinformApp.Service.Interface
     {
         List<Cart> GetAllCarts();
         Cart AddItem(int ProductId, int Quantity);
-        //Cart RemoveItem(int ProductId);
+        Cart RemoveItem(int ProductId);
+        void ClearCart();
     }
 }

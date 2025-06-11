@@ -14,9 +14,12 @@ namespace MampirGanWinformApp.Views.Forms.Customer
 {
     public partial class DetailProductForm : Form, IDetailProductVIew
     {
+        public event Action<int, int> AddToCart;
+
         private int SelectedQuantity = 1;
         private decimal Price = 0;
         private int ProductId = 0;
+
 
         public DetailProductForm()
         {
@@ -59,7 +62,7 @@ namespace MampirGanWinformApp.Views.Forms.Customer
 
         private void BtnDecrease_Click(object sender, EventArgs e)
         {
-            if(SelectedQuantity> 1)
+            if (SelectedQuantity > 1)
             {
                 SelectedQuantity--;
                 LblQty.Text = SelectedQuantity.ToString();
@@ -71,6 +74,14 @@ namespace MampirGanWinformApp.Views.Forms.Customer
         {
             LblTotalPrice.Text = $"Rp {(SelectedQuantity * Price): 0}";
         }
+
+        private void BtnAddToCart_Click(object sender, EventArgs e)
+        {
+            AddToCart?.Invoke(ProductId, SelectedQuantity);
+            MessageBox.Show("Berhasil ditambahkan ke keranjang");
+        }
+
+
     }
 }
 

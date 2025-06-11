@@ -10,7 +10,6 @@ C:\Users\IVAN\Documents\Project_C#\MampirGan-WinformApp\MampirGanWinformApp\Mamp
 C:\Users\IVAN\Documents\Project_C#\MampirGan-WinformApp\MampirGanWinformApp\MampirGanWinformApp\bin\Debug\net8.0-windows\MampirGanWinformApp.runtimeconfig.json
 C:\Users\IVAN\Documents\Project_C#\MampirGan-WinformApp\MampirGanWinformApp\MampirGanWinformApp\bin\Debug\net8.0-windows\MampirGanWinformApp.dll
 C:\Users\IVAN\Documents\Project_C#\MampirGan-WinformApp\MampirGanWinformApp\MampirGanWinformApp\bin\Debug\net8.0-windows\MampirGanWinformApp.pdb
-C:\Users\IVAN\Documents\Project_C#\MampirGan-WinformApp\MampirGanWinformApp\MampirGanWinformApp\obj\Debug\net8.0-windows\MampirGanWinformApp.Views.Forms.Customer.CartForm.resources
 C:\Users\IVAN\Documents\Project_C#\MampirGan-WinformApp\MampirGanWinformApp\MampirGanWinformApp\obj\Debug\net8.0-windows\MampirGanWinformApp.Views.Forms.Customer.CheckoutForm.resources
 C:\Users\IVAN\Documents\Project_C#\MampirGan-WinformApp\MampirGanWinformApp\MampirGanWinformApp\obj\Debug\net8.0-windows\MampirGanWinformApp.Views.Forms.Customer.DetailProductForm.resources
 C:\Users\IVAN\Documents\Project_C#\MampirGan-WinformApp\MampirGanWinformApp\MampirGanWinformApp\obj\Debug\net8.0-windows\MampirGanWinformApp.Views.Forms.Customer.ListProductForm.resources

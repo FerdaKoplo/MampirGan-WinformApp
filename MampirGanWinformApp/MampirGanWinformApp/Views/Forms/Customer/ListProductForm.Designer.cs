@@ -33,10 +33,10 @@
             label1 = new Label();
             panel1 = new Panel();
             panel2 = new Panel();
+            flowLayoutCartPanel = new FlowLayoutPanel();
+            label2 = new Label();
             LblTitle = new Label();
             FlowLayoutPanelListProduct = new FlowLayoutPanel();
-            label2 = new Label();
-            flowLayoutPanel1 = new FlowLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -97,12 +97,29 @@
             // panel2
             // 
             panel2.BackColor = Color.White;
-            panel2.Controls.Add(flowLayoutPanel1);
+            panel2.Controls.Add(flowLayoutCartPanel);
             panel2.Controls.Add(label2);
             panel2.Location = new Point(3, 0);
             panel2.Name = "panel2";
             panel2.Size = new Size(647, 1024);
             panel2.TabIndex = 6;
+            // 
+            // flowLayoutCartPanel
+            // 
+            flowLayoutCartPanel.Location = new Point(20, 265);
+            flowLayoutCartPanel.Name = "flowLayoutCartPanel";
+            flowLayoutCartPanel.Size = new Size(602, 756);
+            flowLayoutCartPanel.TabIndex = 4;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI Semibold", 16F, FontStyle.Bold);
+            label2.Location = new Point(454, 190);
+            label2.Name = "label2";
+            label2.Size = new Size(168, 45);
+            label2.TabIndex = 3;
+            label2.Text = "Keranjang";
             // 
             // LblTitle
             // 
@@ -121,23 +138,6 @@
             FlowLayoutPanelListProduct.Name = "FlowLayoutPanelListProduct";
             FlowLayoutPanelListProduct.Size = new Size(804, 733);
             FlowLayoutPanelListProduct.TabIndex = 0;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI Semibold", 16F, FontStyle.Bold);
-            label2.Location = new Point(454, 190);
-            label2.Name = "label2";
-            label2.Size = new Size(168, 45);
-            label2.TabIndex = 3;
-            label2.Text = "Keranjang";
-            // 
-            // flowLayoutPanel1
-            // 
-            flowLayoutPanel1.Location = new Point(20, 265);
-            flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(602, 756);
-            flowLayoutPanel1.TabIndex = 4;
             // 
             // ListProductForm
             // 
@@ -168,7 +168,7 @@
         private FlowLayoutPanel FlowLayoutCategoryPanel;
         private Panel panel1;
         private Panel panel2;
-        private FlowLayoutPanel flowLayoutPanel1;
+        private FlowLayoutPanel flowLayoutCartPanel;
         private Label label2;
     }
 }

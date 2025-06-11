@@ -26,7 +26,7 @@ namespace MampirGanWinformApp.Utils
         public void Save()
         {
             var JsonString = JsonSerializer.Serialize(Carts);
-            File.WriteAllText(JsonString, _FilePath);
+            File.WriteAllText(_FilePath, JsonString);
         }
 
     }

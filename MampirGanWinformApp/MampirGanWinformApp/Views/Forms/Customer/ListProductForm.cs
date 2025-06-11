@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MampirGanWinformApp.Factory.Interface;
 using MampirGanWinformApp.Model;
 using MampirGanWinformApp.Presenter;
 using MampirGanWinformApp.Service.Implementation;
@@ -17,11 +18,16 @@ using MampirGanWinformApp.Views.Interfaces.Customer;
 
 namespace MampirGanWinformApp.Views.Forms.Customer
 {
-    public partial class ListProductForm : Form, IListProductView
+    public partial class ListProductForm : Form, IListProductView, ICartView
     {
-        private ListProductPresenter _ListProductPresenter;
+        private readonly ListProductPresenter _ListProductPresenter;
+        private readonly CartPresenter _CartPresenter;
+        //private readonly IViewFactory _ViewFactory;
+
         string JsonProductPath = "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\ProductDummy.json";
         string JsonCategoryPath = "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\CategoryDummy.json";
+        string JsonCartPath = "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\CartData.json";
+
         public ListProductForm()
         {
             InitializeComponent();
@@ -29,13 +35,24 @@ namespace MampirGanWinformApp.Views.Forms.Customer
             var ProductLoader = new LoadProductListJson(JsonProductPath);
             var CategoryLoader = new LoadCategoryJson(JsonCategoryPath);
 
+            ProductLoader.Load();
+            var ProductList = ProductLoader.Products;
+
+            var CartLoader = new LoadCartJson(JsonCartPath, ProductList);
+            var CartSaver = new SaveCartJson(JsonCartPath);
+
+
             IProductService ProductService = new ProductService(ProductLoader);
             ICategoryService CategoryService = new CategoryService(CategoryLoader);
+            ICartService CartService = new CartService(CartSaver, CartLoader, ProductService);
 
             _ListProductPresenter = new ListProductPresenter(this, ProductService, CategoryService);
+            _CartPresenter = new CartPresenter(this, CartService);
 
             _ListProductPresenter.LoadAllCategories();
             _ListProductPresenter.LoadProduct();
+            _CartPresenter.LoadCarts();
+
 
         }
 
@@ -68,7 +85,12 @@ namespace MampirGanWinformApp.Views.Forms.Customer
                     DetailPresenter.LoadProductDetail(ClickedCard.ProductDetailData.ProductId);
 
                     ((Form)DetailVIew).Show();
-                    this.Hide();
+
+                    DetailVIew.AddToCart += (ProductId, Quantity) =>
+                    {
+                        _CartPresenter.AddToCart(ProductId, Quantity);
+                        _CartPresenter.LoadCarts(); 
+                    };
                 };
 
                 FlowLayoutPanelListProduct.Controls.Add(Card);
@@ -86,9 +108,7 @@ namespace MampirGanWinformApp.Views.Forms.Customer
                 CB.CheckedChanged += CategoryCheckBox_CheckedChanged;
 
                 FlowLayoutCategoryPanel.Controls.Add(CB);
-
             }
-
         }
 
         public void CategoryCheckBox_CheckedChanged(object sender, EventArgs e)
@@ -107,6 +127,30 @@ namespace MampirGanWinformApp.Views.Forms.Customer
             }
         }
 
+        public void DisplayCart(List<Cart> Carts)
+        {
+            flowLayoutCartPanel.Controls.Clear();
+
+            foreach (var Cart in Carts)
+            {
+                var CartItem = new CartItem();
+
+                CartItem.ProductId = Cart.ProductId;
+                CartItem.ProductNameLabel = Cart.Product?.ProductName ?? "Tidak ditemukan";
+                CartItem.Quantity = $"{Cart.Quantity}";
+                CartItem.TotalPrice = $"{Cart.TotalPriceItem}";
+
+                CartItem.RemoveCartClicked += (Sender, ProductId) =>
+                {
+                    _CartPresenter.RemoveFromCart(ProductId);
+                    MessageBox.Show("Berhasil dihapus");
+                    _CartPresenter.LoadCarts();
+                    
+                };
+
+                flowLayoutCartPanel.Controls.Add(CartItem);
+            }
+        }
         private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
         {
 
