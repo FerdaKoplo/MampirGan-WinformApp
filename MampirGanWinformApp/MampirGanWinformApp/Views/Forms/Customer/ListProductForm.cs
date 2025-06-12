@@ -166,5 +166,12 @@ namespace MampirGanWinformApp.Views.Forms.Customer
         {
 
         }
+
+        private void PictureBoxIcon_Click(object sender, EventArgs e)
+        {
+            IHomeCustomerPanel _HomeCustomerPanel = new HomeCustomerPanelForm();
+            _HomeCustomerPanel.DisplayHomeCustomerPanel();
+            this.Hide();
+        }
     }
 }

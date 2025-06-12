@@ -32,7 +32,6 @@ namespace MampirGanWinformApp.Presenter
                 _CheckoutStateMachine.HandleEventCheckout(CheckoutEvent.Pay);             
                 _CheckoutService.ProcessCheckout();
                 _CheckoutStateMachine.HandleEventCheckout(CheckoutEvent.Success);
-                _CheckoutService.ProcessCheckout();
                 _CheckoutStateMachine.HandleEventCheckout(CheckoutEvent.Reset);
                 _CheckoutView.ShowSuccess("Checkout Sukses!");
             }

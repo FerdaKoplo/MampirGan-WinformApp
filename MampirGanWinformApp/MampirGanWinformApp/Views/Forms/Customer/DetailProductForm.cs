@@ -31,7 +31,6 @@ namespace MampirGanWinformApp.Views.Forms.Customer
             ProductId = Product.ProductId;
             Price = Product.Price;
 
-
             LblProductName.Text = Product.ProductName;
             LblCategory.Text = $"#{Product.Category?.CategoryName ?? "Kategori Tidak Ditemukan"}";
             LblPrice.Text = $"Rp {Product.Price}";

@@ -13,6 +13,23 @@ namespace MampirGanWinformApp.Utils
     {
         void Save();
     }
+
+    public class SaveProductsJson : SaveToJson
+    {
+        private readonly string _FilePath;
+        public List<Product> Products { get; set; } = new List<Product>();
+
+        public SaveProductsJson(string FilePath)
+        {
+            _FilePath = FilePath;
+        }
+
+        public void Save()
+        {
+            var JsonString = JsonSerializer.Serialize(Products);
+            File.WriteAllText(_FilePath, JsonString);
+        }
+    }
     public class SaveCartJson : SaveToJson
     {
         private readonly string _FilePath;

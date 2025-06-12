@@ -20,8 +20,8 @@ namespace MampirGanWinformApp.Views.Forms.Customer
             _Cart = cart;
 
             LblProductName.Text = cart.Product.ProductName;
-            LblQty.Text = $"Jumlah Barang : {cart.Quantity}";
-            LblTotalPrice.Text = $"Total Harga: Rp {cart.TotalPriceItem}";
+            LblQty.Text = $"{cart.Quantity}";
+            LblTotalPrice.Text = $"Rp {cart.TotalPriceItem}";
 
             string JsonProductPath = "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\ProductDummy.json";
             string JsonCartPath = "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\CartData.json";
@@ -32,13 +32,15 @@ namespace MampirGanWinformApp.Views.Forms.Customer
             var CartLoader = new LoadCartJson(JsonCartPath, ProductLoader.Products);
             var CartSaver = new SaveCartJson(JsonCartPath);
             var OrderSaver = new SaveOrderJson(JsonOrderPath);
+            var ProductSaver = new SaveProductsJson(JsonProductPath);
 
             var ProductService = new ProductService(ProductLoader);
             var CartService = new CartService(CartSaver, CartLoader, ProductService);
-            var CheckoutService = new CheckoutService(CartLoader, OrderSaver, CartService);
+            var CheckoutService = new CheckoutService(CartLoader, OrderSaver, CartService, ProductLoader, ProductSaver);
 
             _CheckoutPresenter = new CheckoutPresenter(this, CheckoutService);
 
+            BtnCheckout.Click -= BtnCheckout_Click;
             BtnCheckout.Click += BtnCheckout_Click;
         }
 

@@ -37,6 +37,7 @@
             panel4 = new Panel();
             panel1 = new Panel();
             panel2 = new Panel();
+            PictureBoxIcon = new PictureBox();
             panel7 = new Panel();
             flowLayoutCartPanel = new FlowLayoutPanel();
             panel8 = new Panel();
@@ -49,6 +50,7 @@
             splitContainer1.SuspendLayout();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)PictureBoxIcon).BeginInit();
             SuspendLayout();
             // 
             // splitContainer1
@@ -139,6 +141,7 @@
             // panel2
             // 
             panel2.BackColor = Color.White;
+            panel2.Controls.Add(PictureBoxIcon);
             panel2.Controls.Add(panel7);
             panel2.Controls.Add(flowLayoutCartPanel);
             panel2.Controls.Add(panel8);
@@ -148,6 +151,17 @@
             panel2.Size = new Size(637, 1024);
             panel2.TabIndex = 6;
             panel2.Paint += panel2_Paint;
+            // 
+            // PictureBoxIcon
+            // 
+            PictureBoxIcon.Image = Properties.Resources.profileIcon;
+            PictureBoxIcon.Location = new Point(553, 42);
+            PictureBoxIcon.Name = "PictureBoxIcon";
+            PictureBoxIcon.Size = new Size(44, 45);
+            PictureBoxIcon.SizeMode = PictureBoxSizeMode.Zoom;
+            PictureBoxIcon.TabIndex = 8;
+            PictureBoxIcon.TabStop = false;
+            PictureBoxIcon.Click += PictureBoxIcon_Click;
             // 
             // panel7
             // 
@@ -159,9 +173,9 @@
             // 
             // flowLayoutCartPanel
             // 
-            flowLayoutCartPanel.Location = new Point(21, 194);
+            flowLayoutCartPanel.Location = new Point(21, 247);
             flowLayoutCartPanel.Name = "flowLayoutCartPanel";
-            flowLayoutCartPanel.Size = new Size(588, 667);
+            flowLayoutCartPanel.Size = new Size(588, 614);
             flowLayoutCartPanel.TabIndex = 4;
             // 
             // panel8
@@ -176,7 +190,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Semibold", 16F, FontStyle.Bold);
-            label2.Location = new Point(441, 115);
+            label2.Location = new Point(441, 153);
             label2.Name = "label2";
             label2.Size = new Size(168, 45);
             label2.TabIndex = 3;
@@ -186,7 +200,7 @@
             // 
             LblTitle.AutoSize = true;
             LblTitle.Font = new Font("Segoe UI Semibold", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            LblTitle.Location = new Point(23, 106);
+            LblTitle.Location = new Point(23, 153);
             LblTitle.Name = "LblTitle";
             LblTitle.Size = new Size(326, 54);
             LblTitle.TabIndex = 1;
@@ -195,9 +209,9 @@
             // FlowLayoutPanelListProduct
             // 
             FlowLayoutPanelListProduct.AutoScroll = true;
-            FlowLayoutPanelListProduct.Location = new Point(23, 190);
+            FlowLayoutPanelListProduct.Location = new Point(23, 247);
             FlowLayoutPanelListProduct.Name = "FlowLayoutPanelListProduct";
-            FlowLayoutPanelListProduct.Size = new Size(813, 810);
+            FlowLayoutPanelListProduct.Size = new Size(813, 753);
             FlowLayoutPanelListProduct.TabIndex = 0;
             // 
             // ListProductForm
@@ -217,6 +231,7 @@
             panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)PictureBoxIcon).EndInit();
             ResumeLayout(false);
         }
 
@@ -237,5 +252,6 @@
         private Panel panel6;
         private Panel panel7;
         private Panel panel8;
+        private PictureBox PictureBoxIcon;
     }
 }
