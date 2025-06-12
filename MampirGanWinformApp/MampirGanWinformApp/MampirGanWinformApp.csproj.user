@@ -1,19 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
   <ItemGroup>
+    <Compile Update="UIComponents\CartItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Views\Forms\Admin\ManageCategoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Views\Forms\Auth\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Views\Forms\Auth\RegisterForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Views\Forms\Customer\CartForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Views\Forms\Customer\CheckoutForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Views\Forms\Customer\DetailProductForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Forms\Customer\HomeCustomerPanelForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Views\Forms\Customer\ListProductForm.cs">

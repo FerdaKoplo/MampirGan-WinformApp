@@ -63,8 +63,8 @@
             splitContainer1.Panel2.Controls.Add(LblProductName);
             splitContainer1.Panel2.Controls.Add(LblPrice);
             splitContainer1.Panel2MinSize = 70;
-            splitContainer1.Size = new Size(196, 278);
-            splitContainer1.SplitterDistance = 130;
+            splitContainer1.Size = new Size(196, 335);
+            splitContainer1.SplitterDistance = 156;
             splitContainer1.TabIndex = 0;
             // 
             // pictureBox1
@@ -81,7 +81,7 @@
             // 
             LblLihat.AutoSize = true;
             LblLihat.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            LblLihat.Location = new Point(111, 208);
+            LblLihat.Location = new Point(60, 132);
             LblLihat.Name = "LblLihat";
             LblLihat.Size = new Size(62, 30);
             LblLihat.TabIndex = 3;
@@ -112,7 +112,7 @@
             // 
             LblPrice.AutoSize = true;
             LblPrice.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            LblPrice.Location = new Point(27, 95);
+            LblPrice.Location = new Point(27, 80);
             LblPrice.Name = "LblPrice";
             LblPrice.Size = new Size(65, 28);
             LblPrice.TabIndex = 1;
@@ -124,7 +124,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(splitContainer1);
             Name = "ProductCard";
-            Size = new Size(196, 278);
+            Size = new Size(196, 335);
             splitContainer1.Panel1.ResumeLayout(false);
             splitContainer1.Panel2.ResumeLayout(false);
             splitContainer1.Panel2.PerformLayout();

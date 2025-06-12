@@ -13,16 +13,25 @@ namespace MampirGanWinformApp.Presenter
         private readonly IDetailProductVIew _DetailProdutView;
         private readonly IProductService _ProductService;
 
-        
-        public DetailProductPresenter(IDetailProductVIew DetailProductVIew,  IProductService ProductService)
+
+        public DetailProductPresenter(IDetailProductVIew DetailProductVIew, IProductService ProductService)
         {
             _DetailProdutView = DetailProductVIew;
             _ProductService = ProductService;
         }
         public void LoadProductDetail(int ProductId)
         {
-            var Product = _ProductService.GetProductById(ProductId);
-            _DetailProdutView.DisplayDetailProduct(Product);
+            try
+            {
+                var Product = _ProductService.GetProductById(ProductId);
+                _DetailProdutView.DisplayDetailProduct(Product);
+
+            }
+            catch (InvalidDataException ex)
+            {
+                MessageBox.Show($"Tidak bisa Mengakses Detail Produk: {ex.Message}", "State Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+            }
         }
 
     }

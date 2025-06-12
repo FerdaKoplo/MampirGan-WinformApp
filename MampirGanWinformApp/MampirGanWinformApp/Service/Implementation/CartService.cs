@@ -1,59 +1,94 @@
-﻿    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
-    using MampirGanWinformApp.Model;
-    using MampirGanWinformApp.Service.Interface;
-    using MampirGanWinformApp.Utils;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using MampirGanWinformApp.Model;
+using MampirGanWinformApp.Service.Interface;
+using MampirGanWinformApp.Utils;
 
-    namespace MampirGanWinformApp.Service.Implementation
+namespace MampirGanWinformApp.Service.Implementation
+{
+    public class CartService : ICartService
     {
-        public class CartService : ICartService
+        private readonly LoadCartJson _LoadCartJson;
+        private readonly SaveCartJson _SaveCartJson;
+        private List<Cart> _Carts;
+        private readonly IProductService _ProductService;
+
+        public CartService(SaveCartJson SaveCartJson, LoadCartJson LoadCartJson, IProductService productService)
         {
-            private readonly LoadCartJson _LoadCartJson;
-            private readonly SaveCartJson _SaveCartJson;
+            _LoadCartJson = LoadCartJson;
+            _SaveCartJson = SaveCartJson;
+            _ProductService = productService;
 
-            public CartService()
+            _Carts = _LoadCartJson.Load();
+        }
+
+        public List<Cart> GetAllCarts()
+        {
+
+            foreach (var cart in _Carts)
             {
-
+                cart.Product = _ProductService.GetProductById(cart.ProductId);
             }
 
-            public List<Cart> GetAllCarts()
+            return _Carts;
+        }
+
+        public Cart AddItem(int ProductId, int Quantity)
+        {
+            var ExistingCart = _Carts.FirstOrDefault(Cart => Cart.ProductId == ProductId);
+            var Product = _ProductService.GetProductById(ProductId);
+
+            if (ExistingCart != null)
             {
-                return _LoadCartJson.Carts;
+                ExistingCart.Quantity += Quantity;
+                ExistingCart.TotalPriceItem = ExistingCart.Quantity * Product.Price;
             }
 
-            public Cart AddItem(int ProductId, int Quantity)
+            else
             {
-                var Carts = _LoadCartJson.Carts;
-                var ExistingCart = Carts.FirstOrDefault(Cart => Cart.ProductId == ProductId);
-
-                if (ExistingCart != null)
+                var NewCart = new Cart
                 {
-                    ExistingCart.Quantity += Quantity;
-                }
+                    CartId = _Carts.Count > 0 ? _Carts.Max(Cart => Cart.ProductId) + 1 : 1,
+                    ProductId = ProductId,
+                    Quantity = Quantity,
+                    TotalPriceItem = Quantity * Product.Price
+                };
+                _Carts.Add(NewCart);
+                ExistingCart = NewCart;
+            }
 
-                else
-                {
-                    var NewCart = new Cart{
-                        CartId = Carts.Count > 0 ? Carts.Max(Cart => Cart.ProductId) + 1 : 1,
-                        ProductId = ProductId,
-                        Quantity = Quantity
-                    };
-                }
+            _SaveCartJson.Carts = _Carts;
+            _SaveCartJson.Save();
 
-                _SaveCartJson.Carts = Carts;
+            return ExistingCart;
+        }
+
+
+
+        public Cart RemoveItem(int ProductId)
+        {
+
+            var ExistingCart = _Carts.FirstOrDefault(Cart => Cart.ProductId == ProductId);
+
+            if (ExistingCart != null)
+            {
+                _Carts.Remove(ExistingCart);
+                _SaveCartJson.Carts = _Carts;
                 _SaveCartJson.Save();
-
-                return ExistingCart;
             }
 
+            return ExistingCart;
+        }
 
+        public void ClearCart()
+        {
+            _SaveCartJson.Carts.Clear();
+            _SaveCartJson.Carts = _Carts;
+            _SaveCartJson.Save();
 
-            //public Cart RemoveItem(int ProductId)
-            //{
-
-            //}
         }
     }
+}
