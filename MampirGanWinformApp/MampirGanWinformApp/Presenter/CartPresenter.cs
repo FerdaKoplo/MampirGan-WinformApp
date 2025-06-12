@@ -29,7 +29,7 @@ namespace MampirGanWinformApp.Presenter
         public void AddToCart(int ProductId, int Quantity)
         {
             _CartService.AddItem(ProductId, Quantity);
-            LoadCarts();
+            LoadCarts();  
         }
     }
 }
