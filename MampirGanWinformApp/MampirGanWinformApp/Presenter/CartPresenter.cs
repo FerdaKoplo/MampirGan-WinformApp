@@ -33,6 +33,7 @@ namespace MampirGanWinformApp.Presenter
 
         public void AddToCart(int ProductId, int Quantity)
         {
+
             try
             {
                 _CartStateMachine.HandleEventCart(CartEvent.AddItem);
@@ -43,6 +44,10 @@ namespace MampirGanWinformApp.Presenter
             {
                 MessageBox.Show($"Tidak bisa menambahkan item ke cart: {ex.Message}", "State Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+
+            _CartService.AddItem(ProductId, Quantity);
+            LoadCarts();  
+
         }
 
         public void RemoveFromCart(int ProductId)
