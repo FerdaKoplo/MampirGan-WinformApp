@@ -1,1 +1,1 @@
-[{"CartId":1,"ProductId":1,"Quantity":3,"Product":{"ProductId":1,"ProductImageUrl":null,"ProductName":"Indomie Goreng","Price":3000,"Stock":27,"CategoryId":1,"Category":{"CategoryId":1,"CategoryName":"Makanan","CategoryDescription":"Makanan ringan"}},"TotalPriceItem":9000}]
+[{"CartId":1,"ProductId":1,"Quantity":8,"Product":{"ProductId":1,"ProductImageUrl":null,"ProductName":"Indomie Goreng","Price":3000,"Stock":19,"CategoryId":1,"Category":{"CategoryId":1,"CategoryName":"Makanan","CategoryDescription":"Makanan ringan"}},"TotalPriceItem":24000}]

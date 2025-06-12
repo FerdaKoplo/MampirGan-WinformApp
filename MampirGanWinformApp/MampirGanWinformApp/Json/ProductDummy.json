@@ -4,7 +4,7 @@
         "ProductImageUrl": null,
         "ProductName": "Indomie Goreng",
         "Price": 3000,
-        "Stock": 27,
+        "Stock": 19,
         "CategoryId": 1,
         "Category": {
             "CategoryId": 1,

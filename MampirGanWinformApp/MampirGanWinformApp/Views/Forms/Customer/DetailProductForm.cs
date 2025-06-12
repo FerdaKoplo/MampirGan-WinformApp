@@ -72,7 +72,6 @@ namespace MampirGanWinformApp.Views.Forms.Customer
         private void UpdateTotal()
         {
             LblTotalPrice.Text = $"Rp {(SelectedQuantity * Price): 0}";
-<<<<<<< HEAD
         }
 
         private void BtnAddToCart_Click(object sender, EventArgs e)
@@ -82,14 +81,10 @@ namespace MampirGanWinformApp.Views.Forms.Customer
         }
 
 
-=======
-        }
-
         private void LblPrice_Click(object sender, EventArgs e)
         {
 
         }
->>>>>>> b894aa5a4003dd8bb8eb2d63c0b5fe4647806152
     }
 }
 

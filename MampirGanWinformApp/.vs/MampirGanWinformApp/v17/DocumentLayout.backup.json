@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\ivan\\documents\\project_c#\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\json\\productdummy.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\json\\productdummy.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\ivan\\documents\\project_c#\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\views\\forms\\customer\\listproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\customer\\listproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\mampirganwinformapp\\views\\forms\\customer\\homecustomerpanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\customer\\homecustomerpanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\ivan\\documents\\project_c#\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\json\\productdummy.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\json\\productdummy.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\ivan\\documents\\project_c#\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\json\\categorydummy.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,7 +86,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "HomeCustomerPanelForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\HomeCustomerPanelForm.cs",
+              "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Customer\\HomeCustomerPanelForm.cs",
+              "ToolTip": "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\HomeCustomerPanelForm.cs [Design]",
+              "RelativeToolTip": "MampirGanWinformApp\\Views\\Forms\\Customer\\HomeCustomerPanelForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T18:22:14.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListProductForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.Designer.cs",
+              "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.Designer.cs",
+              "ToolTip": "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.Designer.cs",
+              "RelativeToolTip": "MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T18:23:53.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ListProductForm.cs",
               "DocumentMoniker": "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs",
@@ -99,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ListProductForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs",
@@ -123,40 +147,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ProductDummy.json",
               "DocumentMoniker": "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\ProductDummy.json",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Json\\ProductDummy.json",
               "ToolTip": "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\ProductDummy.json",
               "RelativeToolTip": "MampirGanWinformApp\\Json\\ProductDummy.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAcwDQAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-12T18:27:03.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ListProductForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.Designer.cs",
-              "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.Designer.cs",
-              "ToolTip": "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.Designer.cs",
-              "RelativeToolTip": "MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOkAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:23:53.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeCustomerPanelForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\HomeCustomerPanelForm.cs",
-              "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Customer\\HomeCustomerPanelForm.cs",
-              "ToolTip": "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\HomeCustomerPanelForm.cs [Design]",
-              "RelativeToolTip": "MampirGanWinformApp\\Views\\Forms\\Customer\\HomeCustomerPanelForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:22:14.571Z"
+              "WhenOpened": "2025-06-12T18:27:03.611Z"
             },
             {
               "$type": "Document",
