@@ -30,8 +30,13 @@ namespace MampirGanWinformApp.Views.Forms.Customer
 
         public ListProductForm()
         {
+<<<<<<< HEAD
             InitializeComponent();
 
+=======
+            InitializeComponent();
+
+>>>>>>> b894aa5a4003dd8bb8eb2d63c0b5fe4647806152
             var ProductLoader = new LoadProductListJson(JsonProductPath);
             var CategoryLoader = new LoadCategoryJson(JsonCategoryPath);
 
@@ -161,6 +166,7 @@ namespace MampirGanWinformApp.Views.Forms.Customer
         private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
         {
 
+<<<<<<< HEAD
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
@@ -174,5 +180,18 @@ namespace MampirGanWinformApp.Views.Forms.Customer
             _HomeCustomerPanel.DisplayHomeCustomerPanel();
             this.Hide();
         }
+=======
+        }
+
+        private void ListProductForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LblTitle_Click(object sender, EventArgs e)
+        {
+
+        }
+>>>>>>> b894aa5a4003dd8bb8eb2d63c0b5fe4647806152
     }
 }
