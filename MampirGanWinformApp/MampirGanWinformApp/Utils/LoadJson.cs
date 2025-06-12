@@ -22,7 +22,6 @@ namespace MampirGanWinformApp.Utils
         {
             _FilePath = FilePath;
         }
-
         public void Load()
         {
             var JsonString = File.ReadAllText(_FilePath);

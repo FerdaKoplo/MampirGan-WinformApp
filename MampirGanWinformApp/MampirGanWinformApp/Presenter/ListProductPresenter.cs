@@ -29,7 +29,6 @@ namespace MampirGanWinformApp.Presenter
         public void LoadAllCategories()
         {
             _CategoryStateMachine.HandleEventCategory(CategoryEvent.ViewAll);
-
             var AllCategories = _CategoryService.GetAllCategories();
             _ProductView.DisplayCategories(AllCategories);
         }

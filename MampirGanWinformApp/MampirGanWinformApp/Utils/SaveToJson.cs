@@ -13,7 +13,6 @@ namespace MampirGanWinformApp.Utils
     {
         void Save();
     }
-
     public class SaveProductsJson : SaveToJson
     {
         private readonly string _FilePath;
@@ -46,7 +45,6 @@ namespace MampirGanWinformApp.Utils
             File.WriteAllText(_FilePath, JsonString);
         }
     }
-
     public class SaveOrderJson : SaveToJson
     {
         private readonly string _FilePath;

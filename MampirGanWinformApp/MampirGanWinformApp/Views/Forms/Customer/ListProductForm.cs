@@ -71,6 +71,7 @@ namespace MampirGanWinformApp.Views.Forms.Customer
                     Card.ProductImage = Image.FromFile(Product.ProductImageUrl);
                 }
 
+                // passing data dari list product ke detail product melewati event DetailClicked 
                 Card.DetailClicked += (State, Event) =>
                 {
                     var ClickedCard = State as ProductCard;
