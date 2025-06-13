@@ -44,6 +44,9 @@
             label2 = new Label();
             LblTitle = new Label();
             FlowLayoutPanelListProduct = new FlowLayoutPanel();
+            textBox1 = new TextBox();
+            button1 = new Button();
+            label3 = new Label();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -62,6 +65,9 @@
             // splitContainer1.Panel1
             // 
             splitContainer1.Panel1.BackColor = Color.White;
+            splitContainer1.Panel1.Controls.Add(label3);
+            splitContainer1.Panel1.Controls.Add(button1);
+            splitContainer1.Panel1.Controls.Add(textBox1);
             splitContainer1.Panel1.Controls.Add(panel3);
             splitContainer1.Panel1.Controls.Add(FlowLayoutCategoryPanel);
             splitContainer1.Panel1.Controls.Add(label1);
@@ -214,6 +220,34 @@
             FlowLayoutPanelListProduct.Size = new Size(813, 753);
             FlowLayoutPanelListProduct.TabIndex = 0;
             // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(145, 211);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(228, 31);
+            textBox1.TabIndex = 6;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(12, 208);
+            button1.Name = "button1";
+            button1.Size = new Size(112, 34);
+            button1.TabIndex = 7;
+            button1.Text = "Cari";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI Semibold", 16F, FontStyle.Bold);
+            label3.Location = new Point(12, 153);
+            label3.Name = "label3";
+            label3.Size = new Size(191, 45);
+            label3.TabIndex = 8;
+            label3.Text = "Cari Produk";
+            label3.Click += label3_Click;
+            // 
             // ListProductForm
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -253,5 +287,8 @@
         private Panel panel7;
         private Panel panel8;
         private PictureBox PictureBoxIcon;
+        private Button button1;
+        private TextBox textBox1;
+        private Label label3;
     }
 }

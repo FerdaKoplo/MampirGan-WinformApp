@@ -5,6 +5,9 @@
     <Compile Update="UIComponents\CartItem.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Views\Forms\Admin\DashboardAdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Views\Forms\Admin\ManageCategoryForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -27,6 +30,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Views\Forms\Customer\ListProductForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Forms\Customer\PencarianMenuForm.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
