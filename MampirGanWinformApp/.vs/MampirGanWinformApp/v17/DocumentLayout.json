@@ -1,90 +1,106 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\",
+  "WorkspaceRootPath": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\hp victus\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\statemachine\\implementation\\authstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\statemachine\\implementation\\authstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\terrafel\\konstruksi\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\utils\\loadhistoryorderjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\utils\\loadhistoryorderjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\hp victus\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\service\\implementation\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\service\\implementation\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\terrafel\\konstruksi\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\service\\implementation\\orderhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\service\\implementation\\orderhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\hp victus\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\service\\implementation\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\service\\implementation\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\terrafel\\konstruksi\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\presenter\\orderhistorypresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\presenter\\orderhistorypresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\hp victus\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\presenter\\detailproductpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\presenter\\detailproductpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\hp victus\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\presenter\\listproductpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\terrafel\\konstruksi\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\presenter\\listproductpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\presenter\\listproductpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\hp victus\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\presenter\\checkoutpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\terrafel\\konstruksi\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\presenter\\checkoutpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\presenter\\checkoutpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\hp victus\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\presenter\\cartpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\presenter\\cartpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\terrafel\\konstruksi\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\presenter\\detailproductpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\presenter\\detailproductpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\hp victus\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\json\\productdummy.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\json\\productdummy.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\terrafel\\konstruksi\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\service\\interface\\iorderhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\service\\interface\\iorderhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\hp victus\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\views\\forms\\customer\\listproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\customer\\listproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\mampirganwinformapp\\views\\forms\\customer\\listproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\customer\\listproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\hp victus\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\views\\forms\\customer\\listproductform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\customer\\listproductform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\mampirganwinformapp\\views\\forms\\customer\\homecustomerpanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\customer\\homecustomerpanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\hp victus\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\json\\categorydummy.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\json\\categorydummy.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\hp victus\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\json\\cartdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\json\\cartdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\hp victus\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\views\\forms\\customer\\detailproductform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\customer\\detailproductform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\mampirganwinformapp\\views\\forms\\customer\\detailproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\mampirganwinformapp\\views\\forms\\customer\\detailproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\customer\\detailproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\hp victus\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\views\\forms\\customer\\detailproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\terrafel\\konstruksi\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\terrafel\\konstruksi\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\statemachine\\implementation\\authstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\statemachine\\implementation\\authstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\terrafel\\konstruksi\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\service\\implementation\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\service\\implementation\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\terrafel\\konstruksi\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\service\\implementation\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\service\\implementation\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\terrafel\\konstruksi\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\presenter\\cartpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\presenter\\cartpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\terrafel\\konstruksi\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\json\\productdummy.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\json\\productdummy.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\terrafel\\konstruksi\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\views\\forms\\customer\\listproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\customer\\listproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\mampirganwinformapp\\views\\forms\\customer\\listproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\customer\\listproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\terrafel\\konstruksi\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\views\\forms\\customer\\listproductform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\customer\\listproductform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\mampirganwinformapp\\views\\forms\\customer\\homecustomerpanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\customer\\homecustomerpanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\terrafel\\konstruksi\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\json\\categorydummy.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\json\\categorydummy.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\terrafel\\konstruksi\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\json\\cartdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\json\\cartdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\terrafel\\konstruksi\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\views\\forms\\customer\\detailproductform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\customer\\detailproductform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\terrafel\\konstruksi\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\views\\forms\\customer\\detailproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\customer\\detailproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\mampirganwinformapp\\views\\forms\\auth\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\mampirganwinformapp\\views\\forms\\auth\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\auth\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\mampirganwinformapp\\views\\forms\\auth\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\mampirganwinformapp\\views\\forms\\auth\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\auth\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\hp victus\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\terrafel\\konstruksi\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\hp victus\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,7 +118,15 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Bookmark",
@@ -114,84 +138,102 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthStateMachine.cs",
-              "DocumentMoniker": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\StateMachine\\Implementation\\AuthStateMachine.cs",
-              "RelativeDocumentMoniker": "MampirGanWinformApp\\StateMachine\\Implementation\\AuthStateMachine.cs",
-              "ToolTip": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\StateMachine\\Implementation\\AuthStateMachine.cs",
-              "RelativeToolTip": "MampirGanWinformApp\\StateMachine\\Implementation\\AuthStateMachine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "OrderHistoryPresenter.cs",
+              "DocumentMoniker": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Presenter\\OrderHistoryPresenter.cs",
+              "RelativeDocumentMoniker": "MampirGanWinformApp\\Presenter\\OrderHistoryPresenter.cs",
+              "ToolTip": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Presenter\\OrderHistoryPresenter.cs",
+              "RelativeToolTip": "MampirGanWinformApp\\Presenter\\OrderHistoryPresenter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T19:12:41.578Z",
+              "WhenOpened": "2025-06-13T11:51:40.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoadHistoryOrderJson.cs",
+              "DocumentMoniker": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Utils\\LoadHistoryOrderJson.cs",
+              "RelativeDocumentMoniker": "MampirGanWinformApp\\Utils\\LoadHistoryOrderJson.cs",
+              "ToolTip": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Utils\\LoadHistoryOrderJson.cs",
+              "RelativeToolTip": "MampirGanWinformApp\\Utils\\LoadHistoryOrderJson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T12:08:58.203Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Service\\Implementation\\CategoryService.cs",
-              "RelativeDocumentMoniker": "MampirGanWinformApp\\Service\\Implementation\\CategoryService.cs",
-              "ToolTip": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Service\\Implementation\\CategoryService.cs",
-              "RelativeToolTip": "MampirGanWinformApp\\Service\\Implementation\\CategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "OrderHistoryService.cs",
+              "DocumentMoniker": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Service\\Implementation\\OrderHistoryService.cs",
+              "RelativeDocumentMoniker": "MampirGanWinformApp\\Service\\Implementation\\OrderHistoryService.cs",
+              "ToolTip": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Service\\Implementation\\OrderHistoryService.cs",
+              "RelativeToolTip": "MampirGanWinformApp\\Service\\Implementation\\OrderHistoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T19:12:31.911Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CartService.cs",
-              "DocumentMoniker": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Service\\Implementation\\CartService.cs",
-              "RelativeDocumentMoniker": "MampirGanWinformApp\\Service\\Implementation\\CartService.cs",
-              "ToolTip": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Service\\Implementation\\CartService.cs",
-              "RelativeToolTip": "MampirGanWinformApp\\Service\\Implementation\\CartService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T19:12:30.253Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ListProductPresenter.cs",
-              "DocumentMoniker": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Presenter\\ListProductPresenter.cs",
-              "RelativeDocumentMoniker": "MampirGanWinformApp\\Presenter\\ListProductPresenter.cs",
-              "ToolTip": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Presenter\\ListProductPresenter.cs",
-              "RelativeToolTip": "MampirGanWinformApp\\Presenter\\ListProductPresenter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T19:12:21.038Z"
+              "WhenOpened": "2025-06-13T11:57:22.066Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DetailProductPresenter.cs",
-              "DocumentMoniker": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Presenter\\DetailProductPresenter.cs",
-              "RelativeDocumentMoniker": "MampirGanWinformApp\\Presenter\\DetailProductPresenter.cs",
-              "ToolTip": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Presenter\\DetailProductPresenter.cs",
-              "RelativeToolTip": "MampirGanWinformApp\\Presenter\\DetailProductPresenter.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ListProductPresenter.cs",
+              "DocumentMoniker": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Presenter\\ListProductPresenter.cs",
+              "RelativeDocumentMoniker": "MampirGanWinformApp\\Presenter\\ListProductPresenter.cs",
+              "ToolTip": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Presenter\\ListProductPresenter.cs",
+              "RelativeToolTip": "MampirGanWinformApp\\Presenter\\ListProductPresenter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T19:12:16.078Z"
+              "WhenOpened": "2025-06-12T19:12:21.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CheckoutPresenter.cs",
+              "DocumentMoniker": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Presenter\\CheckoutPresenter.cs",
+              "RelativeDocumentMoniker": "MampirGanWinformApp\\Presenter\\CheckoutPresenter.cs",
+              "ToolTip": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Presenter\\CheckoutPresenter.cs",
+              "RelativeToolTip": "MampirGanWinformApp\\Presenter\\CheckoutPresenter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:12:14.213Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CheckoutPresenter.cs",
-              "DocumentMoniker": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Presenter\\CheckoutPresenter.cs",
-              "RelativeDocumentMoniker": "MampirGanWinformApp\\Presenter\\CheckoutPresenter.cs",
-              "ToolTip": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Presenter\\CheckoutPresenter.cs",
-              "RelativeToolTip": "MampirGanWinformApp\\Presenter\\CheckoutPresenter.cs",
+              "Title": "DetailProductPresenter.cs",
+              "DocumentMoniker": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Presenter\\DetailProductPresenter.cs",
+              "RelativeDocumentMoniker": "MampirGanWinformApp\\Presenter\\DetailProductPresenter.cs",
+              "ToolTip": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Presenter\\DetailProductPresenter.cs",
+              "RelativeToolTip": "MampirGanWinformApp\\Presenter\\DetailProductPresenter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T19:12:14.213Z"
+              "WhenOpened": "2025-06-12T19:12:16.078Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "IOrderHistoryService.cs",
+              "DocumentMoniker": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Service\\Interface\\IOrderHistoryService.cs",
+              "RelativeDocumentMoniker": "MampirGanWinformApp\\Service\\Interface\\IOrderHistoryService.cs",
+              "ToolTip": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Service\\Interface\\IOrderHistoryService.cs",
+              "RelativeToolTip": "MampirGanWinformApp\\Service\\Interface\\IOrderHistoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T12:00:10.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "CartPresenter.cs",
-              "DocumentMoniker": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Presenter\\CartPresenter.cs",
+              "DocumentMoniker": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Presenter\\CartPresenter.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Presenter\\CartPresenter.cs",
-              "ToolTip": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Presenter\\CartPresenter.cs",
+              "ToolTip": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Presenter\\CartPresenter.cs",
               "RelativeToolTip": "MampirGanWinformApp\\Presenter\\CartPresenter.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -199,11 +241,72 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Program.cs",
+              "RelativeDocumentMoniker": "MampirGanWinformApp\\Program.cs",
+              "ToolTip": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Program.cs",
+              "RelativeToolTip": "MampirGanWinformApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:10:22.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "DetailProductForm.cs [Design]",
+              "DocumentMoniker": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\DetailProductForm.cs",
+              "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Customer\\DetailProductForm.cs",
+              "ToolTip": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\DetailProductForm.cs [Design]",
+              "RelativeToolTip": "MampirGanWinformApp\\Views\\Forms\\Customer\\DetailProductForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:10:22.167Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Service\\Implementation\\CartService.cs",
+              "RelativeDocumentMoniker": "MampirGanWinformApp\\Service\\Implementation\\CartService.cs",
+              "ToolTip": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Service\\Implementation\\CartService.cs",
+              "RelativeToolTip": "MampirGanWinformApp\\Service\\Implementation\\CartService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:12:30.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthStateMachine.cs",
+              "DocumentMoniker": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\StateMachine\\Implementation\\AuthStateMachine.cs",
+              "RelativeDocumentMoniker": "MampirGanWinformApp\\StateMachine\\Implementation\\AuthStateMachine.cs",
+              "ToolTip": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\StateMachine\\Implementation\\AuthStateMachine.cs",
+              "RelativeToolTip": "MampirGanWinformApp\\StateMachine\\Implementation\\AuthStateMachine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:12:41.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Service\\Implementation\\CategoryService.cs",
+              "RelativeDocumentMoniker": "MampirGanWinformApp\\Service\\Implementation\\CategoryService.cs",
+              "ToolTip": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Service\\Implementation\\CategoryService.cs",
+              "RelativeToolTip": "MampirGanWinformApp\\Service\\Implementation\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:12:31.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ProductDummy.json",
-              "DocumentMoniker": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\ProductDummy.json",
+              "DocumentMoniker": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\ProductDummy.json",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Json\\ProductDummy.json",
-              "ToolTip": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\ProductDummy.json",
+              "ToolTip": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\ProductDummy.json",
               "RelativeToolTip": "MampirGanWinformApp\\Json\\ProductDummy.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -211,11 +314,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "ListProductForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.Designer.cs",
+              "DocumentMoniker": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.Designer.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.Designer.cs",
-              "ToolTip": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.Designer.cs",
+              "ToolTip": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.Designer.cs",
               "RelativeToolTip": "MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAOkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -223,11 +326,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "CategoryDummy.json",
-              "DocumentMoniker": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\CategoryDummy.json",
+              "DocumentMoniker": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\CategoryDummy.json",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Json\\CategoryDummy.json",
-              "ToolTip": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\CategoryDummy.json",
+              "ToolTip": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\CategoryDummy.json",
               "RelativeToolTip": "MampirGanWinformApp\\Json\\CategoryDummy.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -235,11 +338,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "DetailProductForm.cs",
-              "DocumentMoniker": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\DetailProductForm.cs",
+              "DocumentMoniker": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\DetailProductForm.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Customer\\DetailProductForm.cs",
-              "ToolTip": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\DetailProductForm.cs",
+              "ToolTip": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\DetailProductForm.cs",
               "RelativeToolTip": "MampirGanWinformApp\\Views\\Forms\\Customer\\DetailProductForm.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAewFMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -248,11 +351,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "CartData.json",
-              "DocumentMoniker": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\CartData.json",
+              "DocumentMoniker": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\CartData.json",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Json\\CartData.json",
-              "ToolTip": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\CartData.json",
+              "ToolTip": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\CartData.json",
               "RelativeToolTip": "MampirGanWinformApp\\Json\\CartData.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -260,11 +363,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "ListProductForm.cs",
-              "DocumentMoniker": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs",
+              "DocumentMoniker": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs",
-              "ToolTip": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs",
+              "ToolTip": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs",
               "RelativeToolTip": "MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAowLcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -273,100 +376,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "DetailProductForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\DetailProductForm.Designer.cs",
+              "DocumentMoniker": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\DetailProductForm.Designer.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Customer\\DetailProductForm.Designer.cs",
-              "ToolTip": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\DetailProductForm.Designer.cs",
+              "ToolTip": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\DetailProductForm.Designer.cs",
               "RelativeToolTip": "MampirGanWinformApp\\Views\\Forms\\Customer\\DetailProductForm.Designer.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwNoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T19:10:22.172Z"
+              "WhenOpened": "2025-06-12T19:10:22.172Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\.gitignore",
+              "DocumentMoniker": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\.gitignore",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\.gitignore",
-              "ToolTip": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\.gitignore",
+              "ToolTip": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\.gitignore",
               "RelativeToolTip": "MampirGanWinformApp\\.gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMjSURBVFhH5VbLTttAFL20DivaRHxJt20lVD6g5AMaEEII0Q3QIkqFqGhBBcqbkBDeNJWSBSvCD/AL/QRWbEsXJXEcZ3rvzDgZ22PXoZFYcOLDHV/bM3fOGQ\u002BGewVjTLbuDx0yulAoFHhlVGCTeI4/anhzzrm4zCDWGbsxTbP37ejoT95hq6ACbNv2saay5mWN1et1ViwW2dXVFTs6Pv6V3c09k10G4pGMLvDZILBDsIm2YN22MSqs24DFNEj3E7q7u6H3VW8iFjMuM9lsaBGhBXjRzGqda4CKi8efQk9PT8IwYpfpnUxgEaEF6MtAONcDbkA7eBFPurrg5YvniZhhXMpLPminks//YKnUGzg/P5eZaEgmk3B2dgbX19cyI2B0dsLE2Jh2LG3yez7P\u002BlMpnIXwlECrXQAfoanLINrUDUY8bn7fKMowMB4bUCgWYGJ8XDuW1gJVW/6aUc8czqjKLc7gEvF4AhIJSdlWuvNBW9Xp6SnrHxiAUosW6NDXl4SdTAbev5vQjqXFyckJf9fNqiVoVpusVlkFY8U0lYismKzsYoXdlivMsmpsfWMzUIOAt4D\u002ByIajH6kvUx28pUxI3tIEJpRc00I/tLLgLsYGBwfbZsFWehumJiejW3B4dMS3VyGxJMrK6ZFdJ30ZpSf5HQtW19YDJQjZiCQbFuAE1BXvDhJ0vzeH504fGmhlOTg4ZENDQ1AqtcOCPtjY3ILpD1PRLdjfP\u002BD/3RpSK3L7JffLrrJqWWx5ZSVQAr0FjogUHLqbCjAjDj\u002Bk9CEO6C3I7e2x4eFhuCiVZObueI0WrK1vwMzH6egW7OZyzEIL/FI7FJIHyX57W2Z/JMmCxaXlQA2CNyIXKCFJF8XB6QNe9\u002BZbfguy2V02MjICFxftsWBldRVmZ2aiW4CfUXwD0cqroyK5l2TBwtfFQAlCNqIIILk1knvRsgX4Dcfwk7ptFiwtf4O5T7PRLdhO76AFFspb5vKGSfwvkgVf5hdatID/uMIi8uzdEfa8tgA\u002BMgK/6/\u002BbhJbXwObWNj7jLDARaRrunOxYk2vksS/nfP7zXPQ18IAA8Bcyv5bYM78zewAAAABJRU5ErkJggg==",
               "WhenOpened": "2025-06-12T19:10:22.176Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Program.cs",
-              "RelativeDocumentMoniker": "MampirGanWinformApp\\Program.cs",
-              "ToolTip": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Program.cs",
-              "RelativeToolTip": "MampirGanWinformApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T19:10:22.178Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "ListProductForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs",
+              "DocumentMoniker": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs",
               "ToolTip": "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
               "WhenOpened": "2025-06-12T19:10:22.144Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "HomeCustomerPanelForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\HomeCustomerPanelForm.cs",
+              "DocumentMoniker": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\HomeCustomerPanelForm.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Customer\\HomeCustomerPanelForm.cs",
               "ToolTip": "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\HomeCustomerPanelForm.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\HomeCustomerPanelForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\HomeCustomerPanelForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T19:10:22.161Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DetailProductForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\DetailProductForm.cs",
-              "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Customer\\DetailProductForm.cs",
-              "ToolTip": "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\DetailProductForm.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\DetailProductForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T19:10:22.167Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "RegisterForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Auth\\RegisterForm.cs",
+              "DocumentMoniker": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Auth\\RegisterForm.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Auth\\RegisterForm.cs",
               "ToolTip": "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Auth\\RegisterForm.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Auth\\RegisterForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Auth\\RegisterForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T19:10:22.174Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HP VICTUS\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Auth\\LoginForm.cs",
+              "DocumentMoniker": "C:\\terrafel\\KONSTRUKSI\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Auth\\LoginForm.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Auth\\LoginForm.cs",
               "ToolTip": "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Auth\\LoginForm.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Auth\\LoginForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Auth\\LoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T19:10:22.175Z"
             }
