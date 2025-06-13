@@ -14,10 +14,10 @@ namespace MampirGanWinformApp.Implementation
 
         private static readonly Dictionary<(AuthState, AuthEvent), AuthState> transitions = new()
         {
-            { (AuthState.Idle, AuthEvent.Submit), AuthState.Validating },
-            { (AuthState.Validating, AuthEvent.Success), AuthState.Authenticated },
-            { (AuthState.Validating, AuthEvent.Error), AuthState.Failed },
-            { (AuthState.Failed, AuthEvent.Submit), AuthState.Validating }
+            { (AuthState.Idle, AuthEvent.SubmitLogin), AuthState.Validating },
+            { (AuthState.Validating, AuthEvent.Success), AuthState.Success },
+            { (AuthState.Validating, AuthEvent.Fail), AuthState.Failed },
+            { (AuthState.Idle, AuthEvent.SubmitRegister), AuthState.Validating }
         };
 
         public void Trigger(AuthEvent authEvent)

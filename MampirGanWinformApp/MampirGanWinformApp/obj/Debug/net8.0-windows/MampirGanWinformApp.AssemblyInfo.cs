@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MampirGanWinformApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b71edde8828043a01898f69f9db9dfdd013d330")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+388812399f77b79784137fe69f28856f11a2f293")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("MampirGanWinformApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MampirGanWinformApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

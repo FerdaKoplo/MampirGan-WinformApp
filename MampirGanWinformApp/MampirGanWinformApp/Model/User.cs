@@ -14,9 +14,9 @@ namespace MampirGanWinformApp.Model
     public class User
     {
         public int UserID { get; set; }
-        public required string Email { get; set; }
-        public required string Username { get; set; }
-        public required string Password { get; set; }
+        public required string email { get; set; }
+        public required string username { get; set; }
+        public required string password { get; set; }
         public UserRole Role { get; set; } = UserRole.Customer;
     }
 }

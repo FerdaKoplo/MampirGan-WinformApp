@@ -10,7 +10,7 @@ namespace MampirGanWinformApp.StateMachine.State
     {
         Idle,
         Validating,
-        Authenticated,
+        Success,
         Failed
     }
 }

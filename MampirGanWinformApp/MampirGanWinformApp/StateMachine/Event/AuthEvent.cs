@@ -8,8 +8,9 @@ namespace MampirGanWinformApp.StateMachine.Event
 {
     public enum AuthEvent
     {
-        Submit,
+        SubmitLogin,
+        SubmitRegister,
         Success,
-        Error
+        Fail
     }
 }
