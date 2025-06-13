@@ -28,7 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ListProductForm));
             splitContainer1 = new SplitContainer();
+            pictureBox1 = new PictureBox();
+            textBoxCariMenu = new TextBox();
             panel3 = new Panel();
             FlowLayoutCategoryPanel = new FlowLayoutPanel();
             label1 = new Label();
@@ -48,6 +51,7 @@
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
             splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)PictureBoxIcon).BeginInit();
@@ -62,6 +66,8 @@
             // splitContainer1.Panel1
             // 
             splitContainer1.Panel1.BackColor = Color.White;
+            splitContainer1.Panel1.Controls.Add(pictureBox1);
+            splitContainer1.Panel1.Controls.Add(textBoxCariMenu);
             splitContainer1.Panel1.Controls.Add(panel3);
             splitContainer1.Panel1.Controls.Add(FlowLayoutCategoryPanel);
             splitContainer1.Panel1.Controls.Add(label1);
@@ -79,6 +85,26 @@
             splitContainer1.Size = new Size(1898, 1024);
             splitContainer1.SplitterDistance = 400;
             splitContainer1.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(45, 153);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(36, 33);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 7;
+            pictureBox1.TabStop = false;
+            // 
+            // textBoxCariMenu
+            // 
+            textBoxCariMenu.Location = new Point(82, 155);
+            textBoxCariMenu.Name = "textBoxCariMenu";
+            textBoxCariMenu.Size = new Size(268, 31);
+            textBoxCariMenu.TabIndex = 6;
+            textBoxCariMenu.Text = "Search Menu";
+            textBoxCariMenu.TextAlign = HorizontalAlignment.Center;
+            textBoxCariMenu.TextChanged += textBoxCariMenu_TextChanged;
             // 
             // panel3
             // 
@@ -228,6 +254,7 @@
             splitContainer1.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
             splitContainer1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
@@ -253,5 +280,7 @@
         private Panel panel7;
         private Panel panel8;
         private PictureBox PictureBoxIcon;
+        private TextBox textBoxCariMenu;
+        private PictureBox pictureBox1;
     }
 }

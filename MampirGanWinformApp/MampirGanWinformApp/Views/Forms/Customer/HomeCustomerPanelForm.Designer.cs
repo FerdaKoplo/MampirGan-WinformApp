@@ -38,7 +38,6 @@
             panel5 = new Panel();
             panel6 = new Panel();
             panel4 = new Panel();
-            buttonCari = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -46,7 +45,6 @@
             // panel1
             // 
             panel1.BackColor = Color.White;
-            panel1.Controls.Add(buttonCari);
             panel1.Controls.Add(button3);
             panel1.Controls.Add(button2);
             panel1.Controls.Add(BtnListKatalog);
@@ -146,19 +144,6 @@
             panel4.Size = new Size(332, 37);
             panel4.TabIndex = 2;
             // 
-            // buttonCari
-            // 
-            buttonCari.BackColor = Color.Black;
-            buttonCari.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            buttonCari.ForeColor = Color.White;
-            buttonCari.Location = new Point(12, 228);
-            buttonCari.Name = "buttonCari";
-            buttonCari.Size = new Size(308, 55);
-            buttonCari.TabIndex = 3;
-            buttonCari.Text = "Search Menu";
-            buttonCari.UseVisualStyleBackColor = false;
-            buttonCari.Click += button1_Click;
-            // 
             // HomeCustomerPanelForm
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -188,6 +173,5 @@
         private Panel panel3;
         private Panel panel5;
         private Panel panel6;
-        private Button buttonCari;
     }
 }

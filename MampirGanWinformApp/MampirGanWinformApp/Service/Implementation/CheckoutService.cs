@@ -24,7 +24,7 @@ namespace MampirGanWinformApp.Service.Implementation
         public CheckoutService(LoadCartJson LoadCartJson, SaveOrderJson SaveOrderJson, CartService CartService, LoadProductListJson LoadProductListJson, SaveProductsJson SaveProductsJson)
         {
             _LoadCartJson = LoadCartJson;
-            _SaveOrderJson = SaveOrderJson; 
+            _SaveOrderJson = SaveOrderJson;
             _CartService = CartService;
             _SaveProductsJson = SaveProductsJson;
             _LoadProductListJson = LoadProductListJson;

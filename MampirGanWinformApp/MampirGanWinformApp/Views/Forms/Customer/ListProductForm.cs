@@ -184,5 +184,12 @@ namespace MampirGanWinformApp.Views.Forms.Customer
         {
 
         }
+
+        private void textBoxCariMenu_TextChanged(object sender, EventArgs e)
+        {
+            textBoxCariMenu.Multiline = true;
+            textBoxCariMenu.TextAlign = HorizontalAlignment.Center;
+            textBoxCariMenu.Font = new Font("Segoe UI", 14);
+        }
     }
 }
