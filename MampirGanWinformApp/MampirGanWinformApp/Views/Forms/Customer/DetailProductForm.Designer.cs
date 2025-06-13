@@ -32,7 +32,7 @@
             LblProductName = new Label();
             LblCategory = new Label();
             PictureProduct = new PictureBox();
-            BtnKeranjang = new Button();
+            BtnAddToCart = new Button();
             button2 = new Button();
             label1 = new Label();
             BtnDecrease = new Button();
@@ -48,22 +48,19 @@
             // 
             LblPrice.AutoSize = true;
             LblPrice.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            LblPrice.Location = new Point(853, 131);
-            LblPrice.Margin = new Padding(2, 0, 2, 0);
+            LblPrice.Location = new Point(652, 116);
             LblPrice.Name = "LblPrice";
-            LblPrice.Size = new Size(117, 46);
+            LblPrice.Size = new Size(137, 54);
             LblPrice.TabIndex = 7;
             LblPrice.Text = "label1";
-            LblPrice.Click += LblPrice_Click;
             // 
             // LblProductName
             // 
             LblProductName.AutoSize = true;
             LblProductName.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            LblProductName.Location = new Point(853, 87);
-            LblProductName.Margin = new Padding(2, 0, 2, 0);
+            LblProductName.Location = new Point(652, 61);
             LblProductName.Name = "LblProductName";
-            LblProductName.Size = new Size(96, 37);
+            LblProductName.Size = new Size(110, 45);
             LblProductName.TabIndex = 6;
             LblProductName.Text = "label1";
             // 
@@ -71,42 +68,39 @@
             // 
             LblCategory.AutoSize = true;
             LblCategory.Font = new Font("Segoe UI", 10F);
-            LblCategory.Location = new Point(349, 502);
-            LblCategory.Margin = new Padding(2, 0, 2, 0);
+            LblCategory.Location = new Point(137, 674);
             LblCategory.Name = "LblCategory";
-            LblCategory.Size = new Size(79, 23);
+            LblCategory.Size = new Size(92, 28);
             LblCategory.TabIndex = 4;
             LblCategory.Text = "Category";
             // 
             // PictureProduct
             // 
-            PictureProduct.Location = new Point(349, 87);
-            PictureProduct.Margin = new Padding(2, 2, 2, 2);
+            PictureProduct.Location = new Point(137, 173);
             PictureProduct.Name = "PictureProduct";
-            PictureProduct.Size = new Size(466, 382);
+            PictureProduct.Size = new Size(462, 478);
             PictureProduct.TabIndex = 5;
             PictureProduct.TabStop = false;
             // 
-            // BtnKeranjang
+            // BtnAddToCart
             // 
-            BtnKeranjang.BackColor = Color.Black;
-            BtnKeranjang.ForeColor = Color.White;
-            BtnKeranjang.Location = new Point(854, 586);
-            BtnKeranjang.Margin = new Padding(2, 2, 2, 2);
-            BtnKeranjang.Name = "BtnKeranjang";
-            BtnKeranjang.Size = new Size(235, 54);
-            BtnKeranjang.TabIndex = 8;
-            BtnKeranjang.Text = "Keranjang";
-            BtnKeranjang.UseVisualStyleBackColor = false;
+            BtnAddToCart.BackColor = Color.Black;
+            BtnAddToCart.ForeColor = Color.White;
+            BtnAddToCart.Location = new Point(652, 674);
+            BtnAddToCart.Name = "BtnAddToCart";
+            BtnAddToCart.Size = new Size(242, 68);
+            BtnAddToCart.TabIndex = 8;
+            BtnAddToCart.Text = "Keranjang";
+            BtnAddToCart.UseVisualStyleBackColor = false;
+            BtnAddToCart.Click += BtnAddToCart_Click;
             // 
             // button2
             // 
             button2.BackColor = Color.White;
             button2.ForeColor = Color.Black;
-            button2.Location = new Point(854, 658);
-            button2.Margin = new Padding(2, 2, 2, 2);
+            button2.Location = new Point(652, 765);
             button2.Name = "button2";
-            button2.Size = new Size(235, 54);
+            button2.Size = new Size(242, 68);
             button2.TabIndex = 9;
             button2.Text = "Checkout";
             button2.UseVisualStyleBackColor = false;
@@ -115,19 +109,17 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(853, 402);
-            label1.Margin = new Padding(2, 0, 2, 0);
+            label1.Location = new Point(654, 454);
             label1.Name = "label1";
-            label1.Size = new Size(77, 28);
+            label1.Size = new Size(92, 32);
             label1.TabIndex = 10;
             label1.Text = "Jumlah";
             // 
             // BtnDecrease
             // 
-            BtnDecrease.Location = new Point(854, 454);
-            BtnDecrease.Margin = new Padding(2, 2, 2, 2);
+            BtnDecrease.Location = new Point(656, 518);
             BtnDecrease.Name = "BtnDecrease";
-            BtnDecrease.Size = new Size(26, 26);
+            BtnDecrease.Size = new Size(32, 33);
             BtnDecrease.TabIndex = 11;
             BtnDecrease.Text = "-";
             BtnDecrease.UseVisualStyleBackColor = true;
@@ -137,19 +129,17 @@
             // 
             LblQty.AutoSize = true;
             LblQty.Font = new Font("Segoe UI", 10F);
-            LblQty.Location = new Point(908, 455);
-            LblQty.Margin = new Padding(2, 0, 2, 0);
+            LblQty.Location = new Point(723, 520);
             LblQty.Name = "LblQty";
-            LblQty.Size = new Size(19, 23);
+            LblQty.Size = new Size(23, 28);
             LblQty.TabIndex = 12;
             LblQty.Text = "0";
             // 
             // BtnIncrease
             // 
-            BtnIncrease.Location = new Point(956, 454);
-            BtnIncrease.Margin = new Padding(2, 2, 2, 2);
+            BtnIncrease.Location = new Point(783, 518);
             BtnIncrease.Name = "BtnIncrease";
-            BtnIncrease.Size = new Size(26, 26);
+            BtnIncrease.Size = new Size(32, 33);
             BtnIncrease.TabIndex = 13;
             BtnIncrease.Text = "+";
             BtnIncrease.UseVisualStyleBackColor = true;
@@ -158,10 +148,9 @@
             // LblStock
             // 
             LblStock.AutoSize = true;
-            LblStock.Location = new Point(854, 191);
-            LblStock.Margin = new Padding(2, 0, 2, 0);
+            LblStock.Location = new Point(654, 191);
             LblStock.Name = "LblStock";
-            LblStock.Size = new Size(50, 20);
+            LblStock.Size = new Size(59, 25);
             LblStock.TabIndex = 14;
             LblStock.Text = "label3";
             // 
@@ -169,19 +158,17 @@
             // 
             LblTotalPrice.AutoSize = true;
             LblTotalPrice.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            LblTotalPrice.Location = new Point(854, 524);
-            LblTotalPrice.Margin = new Padding(2, 0, 2, 0);
+            LblTotalPrice.Location = new Point(652, 597);
             LblTotalPrice.Name = "LblTotalPrice";
-            LblTotalPrice.Size = new Size(101, 41);
+            LblTotalPrice.Size = new Size(118, 48);
             LblTotalPrice.TabIndex = 15;
             LblTotalPrice.Text = "label3";
             // 
             // BtnKembali
             // 
-            BtnKembali.Location = new Point(206, 87);
-            BtnKembali.Margin = new Padding(2, 2, 2, 2);
+            BtnKembali.Location = new Point(137, 67);
             BtnKembali.Name = "BtnKembali";
-            BtnKembali.Size = new Size(102, 36);
+            BtnKembali.Size = new Size(128, 45);
             BtnKembali.TabIndex = 16;
             BtnKembali.Text = "Kembali";
             BtnKembali.UseVisualStyleBackColor = true;
@@ -189,10 +176,10 @@
             // 
             // DetailProductForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1518, 819);
+            ClientSize = new Size(978, 944);
             Controls.Add(BtnKembali);
             Controls.Add(LblTotalPrice);
             Controls.Add(LblStock);
@@ -201,12 +188,11 @@
             Controls.Add(BtnDecrease);
             Controls.Add(label1);
             Controls.Add(button2);
-            Controls.Add(BtnKeranjang);
+            Controls.Add(BtnAddToCart);
             Controls.Add(LblPrice);
             Controls.Add(LblProductName);
             Controls.Add(LblCategory);
             Controls.Add(PictureProduct);
-            Margin = new Padding(2, 2, 2, 2);
             Name = "DetailProductForm";
             Text = "DetailProductForm";
             ((System.ComponentModel.ISupportInitialize)PictureProduct).EndInit();
@@ -220,7 +206,7 @@
         private Label LblProductName;
         private Label LblCategory;
         private PictureBox PictureProduct;
-        private Button BtnKeranjang;
+        private Button BtnAddToCart;
         private Button button2;
         private Label label1;
         private Button BtnDecrease;

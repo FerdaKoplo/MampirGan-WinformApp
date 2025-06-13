@@ -9,22 +9,28 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="DTOs\**" />
+    <Compile Remove="UIComponents\ConfirmationModal\**" />
+    <Compile Remove="UIComponents\ErrorModal\**" />
+    <EmbeddedResource Remove="DTOs\**" />
+    <EmbeddedResource Remove="UIComponents\ConfirmationModal\**" />
+    <EmbeddedResource Remove="UIComponents\ErrorModal\**" />
+    <None Remove="DTOs\**" />
+    <None Remove="UIComponents\ConfirmationModal\**" />
+    <None Remove="UIComponents\ErrorModal\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="Json\CategoryDummy.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DTOs\Order\" />
-    <Folder Include="Factory\" />
-    <Folder Include="UIComponents\ErrorModal\" />
-    <Folder Include="UIComponents\ConfirmationModal\" />
-    <Folder Include="Views\Forms\Admin\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Update="UIComponents\CartItem.cs">
-      <SubType>UserControl</SubType>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Update="UIComponents\ProductCard.cs">
       <SubType>UserControl</SubType>
@@ -32,9 +38,23 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Json\OrderData.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="Json\ProductDummy.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="UIComponents\Pages\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
 
 </Project>

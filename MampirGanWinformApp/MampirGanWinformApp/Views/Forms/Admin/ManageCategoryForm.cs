@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MampirGanWinformApp.Views.Forms.Customer
+namespace MampirGanWinformApp.Views.Forms.Admin
 {
-    public partial class CartForm : Form
+    public partial class ManageCategoryForm : Form
     {
-        public CartForm()
+        public ManageCategoryForm()
         {
             InitializeComponent();
         }

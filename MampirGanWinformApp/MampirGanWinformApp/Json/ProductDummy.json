@@ -1,10 +1,10 @@
-﻿[
+[
     {
         "ProductId": 1,
+        "ProductImageUrl": null,
         "ProductName": "Indomie Goreng",
         "Price": 3000,
-        "Stock": 50,
-        "ProductImageUrl": null,
+        "Stock": 19,
         "CategoryId": 1,
         "Category": {
             "CategoryId": 1,
@@ -14,10 +14,10 @@
     },
     {
         "ProductId": 2,
+        "ProductImageUrl": null,
         "ProductName": "Aqua Botol",
         "Price": 4000,
         "Stock": 100,
-        "ProductImageUrl": null,
         "CategoryId": 2,
         "Category": {
             "CategoryId": 2,
@@ -27,10 +27,10 @@
     },
     {
         "ProductId": 3,
+        "ProductImageUrl": null,
         "ProductName": "Aqua Botol",
         "Price": 4000,
-        "Stock": 100,
-        "ProductImageUrl": null,
+        "Stock": 94,
         "CategoryId": 2,
         "Category": {
             "CategoryId": 2,
@@ -40,10 +40,10 @@
     },
     {
         "ProductId": 4,
+        "ProductImageUrl": null,
         "ProductName": "Aqua Botol",
         "Price": 4000,
         "Stock": 100,
-        "ProductImageUrl": null,
         "CategoryId": 2,
         "Category": {
             "CategoryId": 2,
@@ -53,10 +53,10 @@
     },
     {
         "ProductId": 5,
+        "ProductImageUrl": null,
         "ProductName": "Aqua Botol",
         "Price": 4000,
         "Stock": 100,
-        "ProductImageUrl": null,
         "CategoryId": 2,
         "Category": {
             "CategoryId": 2,

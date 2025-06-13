@@ -11,8 +11,8 @@ namespace MampirGanWinformApp.Model
         public int OrderId { get; set; }
         public int ProductId { get; set; }
         public string ProductName { get; set; }
-        public List<Product> Products { get; set; } = new();
+        public decimal UnitPrice { get; set; }
         public int Quantity { get; set; }
-        public decimal SubTotal { get; set; }   
+        public Cart Cart { get; set; }
     }
 }

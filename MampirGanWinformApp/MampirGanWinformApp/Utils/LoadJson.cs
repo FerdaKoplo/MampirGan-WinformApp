@@ -22,7 +22,6 @@ namespace MampirGanWinformApp.Utils
         {
             _FilePath = FilePath;
         }
-
         public void Load()
         {
             var JsonString = File.ReadAllText(_FilePath);
@@ -47,20 +46,29 @@ namespace MampirGanWinformApp.Utils
         }
     }
 
-    public class LoadCartJson : ILoadJson
+    public class LoadCartJson 
     {
         private readonly string _FilePath;
+        private readonly List<Product> _ProductList;
         public List<Cart> Carts { get; set; }
 
-        public LoadCartJson(string FilePath)
+        public LoadCartJson(string FilePath, List<Product> ProductList)
         {
             _FilePath = FilePath;
+            _ProductList = ProductList;
         }
 
-        public void Load()
+        public List <Cart> Load()
         {
             var JsonString = File.ReadAllText(_FilePath);
-            Carts = JsonSerializer.Deserialize<List<Cart>>(JsonString);
+            Carts = JsonSerializer.Deserialize<List<Cart>>(JsonString) ?? new List<Cart>();
+
+            foreach (var Cart in Carts)
+            {
+                Cart.Product = _ProductList?.FirstOrDefault(Product => Product.ProductId == Cart.ProductId);
+            }
+
+            return Carts;
         }
     }
 

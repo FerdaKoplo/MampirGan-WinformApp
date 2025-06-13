@@ -13,6 +13,6 @@ namespace MampirGanWinformApp.StateMachine.Event
         ViewCart,
         Checkout,
         ClearCart,
-        Exit
+        Exit,
     }
 }

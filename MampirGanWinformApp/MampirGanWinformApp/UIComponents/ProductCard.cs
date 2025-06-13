@@ -13,6 +13,9 @@ namespace MampirGanWinformApp.UIComponents
 {
     public partial class ProductCard : UserControl
     {
+        public event EventHandler DetailClicked;
+        
+        public Product ProductDetailData { get; set; }
         public ProductCard()
         {
             InitializeComponent();
@@ -42,10 +45,6 @@ namespace MampirGanWinformApp.UIComponents
             set => pictureBox1.Image = value;
         }
 
-        public event EventHandler DetailClicked;
-
-        public Product ProductDetailData { get; set; }
-
         private void LblLihat_Click(object sender, EventArgs e)
         {
             DetailClicked?.Invoke(this, EventArgs.Empty);
@@ -53,7 +52,7 @@ namespace MampirGanWinformApp.UIComponents
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
+           
         }
 
         private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
