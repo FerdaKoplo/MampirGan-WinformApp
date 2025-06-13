@@ -30,5 +30,10 @@ namespace MampirGanWinformApp.Views.Forms.Customer
             ((Form)ListProductView).Show();
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
