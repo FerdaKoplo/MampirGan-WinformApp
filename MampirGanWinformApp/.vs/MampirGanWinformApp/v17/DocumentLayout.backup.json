@@ -3,23 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\mampirganwinformapp\\views\\forms\\customer\\homecustomerpanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\mampirganwinformapp\\views\\forms\\customer\\listproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\customer\\listproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\dita\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\views\\forms\\customer\\listproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\customer\\listproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\dita\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\views\\forms\\customer\\homecustomerpanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\customer\\homecustomerpanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\dita\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\views\\forms\\customer\\pencarianmenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\mampirganwinformapp\\views\\forms\\customer\\pencarianmenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\customer\\pencarianmenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\mampirganwinformapp\\views\\forms\\customer\\listproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\customer\\listproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\mampirganwinformapp\\views\\forms\\customer\\detailproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\customer\\detailproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\dita\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\views\\forms\\customer\\dashboardcustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\mampirganwinformapp\\views\\forms\\customer\\dashboardcustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\customer\\dashboardcustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -27,7 +32,7 @@
       "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\customer\\homecustomerpanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\dita\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\views\\forms\\customer\\checkoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\mampirganwinformapp\\views\\forms\\customer\\checkoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\customer\\checkoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -55,10 +60,13 @@
       "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\service\\implementation\\productserivce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+=======
+>>>>>>> ditaa
       "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\dita\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\service\\implementation\\checkoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\service\\implementation\\checkoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\dita\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\service\\implementation\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\service\\implementation\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -139,10 +147,6 @@
       "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\presenter\\cartpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\dita\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\views\\forms\\customer\\listproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\customer\\listproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\dita\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\views\\forms\\customer\\listproductform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\customer\\listproductform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -167,8 +171,22 @@
       "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
+=======
+>>>>>>> ditaa
       "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\dita\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\dita\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\presenter\\registerpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\presenter\\registerpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|c:\\users\\dita\\source\\repos\\mampirgan-winformapp\\mampirganwinformapp\\mampirganwinformapp\\presenter\\loginpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\presenter\\loginpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\mampirganwinformapp\\views\\forms\\customer\\listproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2CBCA00-FFE4-4074-9E01-24FC3C4A2B1A}|MampirGanWinformApp\\MampirGanWinformApp.csproj|solutionrelative:mampirganwinformapp\\views\\forms\\customer\\listproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -178,7 +196,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -197,32 +215,28 @@
               "Name": "ST:0:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PencarianMenuForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\PencarianMenuForm.cs",
-              "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Customer\\PencarianMenuForm.cs",
-              "ToolTip": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\PencarianMenuForm.cs [Design]",
-              "RelativeToolTip": "MampirGanWinformApp\\Views\\Forms\\Customer\\PencarianMenuForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T09:52:07.884Z",
-              "EditorCaption": " [Design]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+<<<<<<< HEAD
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DashboardCustomerForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\DashboardCustomerForm.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Customer\\DashboardCustomerForm.cs",
               "ToolTip": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\DashboardCustomerForm.cs [Design]",
               "RelativeToolTip": "MampirGanWinformApp\\Views\\Forms\\Customer\\DashboardCustomerForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T09:37:48.933Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-13T09:37:48.933Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "HomeCustomerPanelForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\HomeCustomerPanelForm.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Customer\\HomeCustomerPanelForm.cs",
@@ -234,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ListProductForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs",
@@ -246,19 +260,42 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListProductForm.cs",
+              "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs",
+              "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs",
+              "ToolTip": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs",
+              "RelativeToolTip": "MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs",
+              "ViewState": "AgIAALsAAAAAAAAAAAApwMIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:10:21.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "PencarianMenuForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\PencarianMenuForm.cs",
+              "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Customer\\PencarianMenuForm.cs",
+              "ToolTip": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\PencarianMenuForm.cs [Design]",
+              "RelativeToolTip": "MampirGanWinformApp\\Views\\Forms\\Customer\\PencarianMenuForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T09:52:07.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "DetailProductForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\DetailProductForm.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Customer\\DetailProductForm.cs",
               "ToolTip": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\DetailProductForm.cs [Design]",
               "RelativeToolTip": "MampirGanWinformApp\\Views\\Forms\\Customer\\DetailProductForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T19:10:22.167Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-12T19:10:22.167Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "HomeCustomerPanelForm.cs",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\HomeCustomerPanelForm.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Customer\\HomeCustomerPanelForm.cs",
@@ -266,24 +303,22 @@
               "RelativeToolTip": "MampirGanWinformApp\\Views\\Forms\\Customer\\HomeCustomerPanelForm.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAA7wCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T09:40:21.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T09:40:21.481Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CheckoutForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\CheckoutForm.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Customer\\CheckoutForm.cs",
               "ToolTip": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\CheckoutForm.cs [Design]",
               "RelativeToolTip": "MampirGanWinformApp\\Views\\Forms\\Customer\\CheckoutForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T09:36:42.325Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-13T09:36:42.325Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ICartService.cs",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Service\\Interface\\ICartService.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Service\\Interface\\ICartService.cs",
@@ -291,24 +326,22 @@
               "RelativeToolTip": "MampirGanWinformApp\\Service\\Interface\\ICartService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T03:48:07.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T03:48:07.941Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ManageCategoryForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Admin\\ManageCategoryForm.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Admin\\ManageCategoryForm.cs",
               "ToolTip": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Admin\\ManageCategoryForm.cs [Design]",
               "RelativeToolTip": "MampirGanWinformApp\\Views\\Forms\\Admin\\ManageCategoryForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T03:46:45.882Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-13T03:46:45.882Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Service\\Interface\\ICategoryService.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Service\\Interface\\ICategoryService.cs",
@@ -320,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ICheckoutService.cs",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Service\\Interface\\ICheckoutService.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Service\\Interface\\ICheckoutService.cs",
@@ -332,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Service\\Interface\\IProductService.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Service\\Interface\\IProductService.cs",
@@ -344,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ProductSerivce.cs",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Service\\Implementation\\ProductSerivce.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Service\\Implementation\\ProductSerivce.cs",
@@ -356,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "CheckoutService.cs",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Service\\Implementation\\CheckoutService.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Service\\Implementation\\CheckoutService.cs",
@@ -368,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Model\\User.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Model\\User.cs",
@@ -380,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Model\\Product.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Model\\Product.cs",
@@ -392,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Model\\OrderItem.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Model\\OrderItem.cs",
@@ -404,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "CartService.cs",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Service\\Implementation\\CartService.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Service\\Implementation\\CartService.cs",
@@ -416,7 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Service\\Implementation\\CategoryService.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Service\\Implementation\\CategoryService.cs",
@@ -428,7 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Model\\Order.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Model\\Order.cs",
@@ -440,7 +473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Model\\Category.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Model\\Category.cs",
@@ -452,7 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Cart.cs",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Model\\Cart.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Model\\Cart.cs",
@@ -464,7 +497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "ViewFactory.cs",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Factory\\Implementation\\ViewFactory.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Factory\\Implementation\\ViewFactory.cs",
@@ -476,7 +509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "IViewFactory.cs",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Factory\\Interface\\IViewFactory.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Factory\\Interface\\IViewFactory.cs",
@@ -488,7 +521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "CartData.json",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\CartData.json",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Json\\CartData.json",
@@ -500,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "CategoryDummy.json",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\CategoryDummy.json",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Json\\CategoryDummy.json",
@@ -512,7 +545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "profileIcon.png -  [English (United States)] - PNG [500x500, 32 bit, PNG]",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Assets\\profileIcon.png",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Assets\\profileIcon.png",
@@ -524,7 +557,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "OrderData.json",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\OrderData.json",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Json\\OrderData.json",
@@ -536,7 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "ProductDummy.json",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\ProductDummy.json",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Json\\ProductDummy.json",
@@ -548,7 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "AuthStateMachine.cs",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\StateMachine\\Implementation\\AuthStateMachine.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\StateMachine\\Implementation\\AuthStateMachine.cs",
@@ -560,7 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "ListProductPresenter.cs",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Presenter\\ListProductPresenter.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Presenter\\ListProductPresenter.cs",
@@ -572,7 +605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "DetailProductPresenter.cs",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Presenter\\DetailProductPresenter.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Presenter\\DetailProductPresenter.cs",
@@ -584,7 +617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "CheckoutPresenter.cs",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Presenter\\CheckoutPresenter.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Presenter\\CheckoutPresenter.cs",
@@ -596,7 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "CartPresenter.cs",
               "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Presenter\\CartPresenter.cs",
               "RelativeDocumentMoniker": "MampirGanWinformApp\\Presenter\\CartPresenter.cs",
@@ -629,21 +662,7 @@
               "RelativeToolTip": "MampirGanWinformApp\\Views\\Forms\\Customer\\DetailProductForm.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAewFMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T19:10:22.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "ListProductForm.cs",
-              "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs",
-              "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs",
-              "ToolTip": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs",
-              "RelativeToolTip": "MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAowLcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T19:10:21.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T19:10:22.17Z"
             },
             {
               "$type": "Document",
@@ -655,8 +674,7 @@
               "RelativeToolTip": "MampirGanWinformApp\\Views\\Forms\\Customer\\DetailProductForm.Designer.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwNoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T19:10:22.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T19:10:22.172Z"
             },
             {
               "$type": "Document",
@@ -683,34 +701,68 @@
               "WhenOpened": "2025-06-12T19:10:22.178Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+=======
+>>>>>>> ditaa
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CheckoutService.cs",
+              "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Service\\Implementation\\CheckoutService.cs",
+              "RelativeDocumentMoniker": "MampirGanWinformApp\\Service\\Implementation\\CheckoutService.cs",
+              "ToolTip": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Service\\Implementation\\CheckoutService.cs",
+              "RelativeToolTip": "MampirGanWinformApp\\Service\\Implementation\\CheckoutService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T12:37:39.519Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "RegisterForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Auth\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Auth\\RegisterForm.cs",
-              "ToolTip": "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Auth\\RegisterForm.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Auth\\RegisterForm.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "RegisterPresenter.cs",
+              "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Presenter\\RegisterPresenter.cs",
+              "RelativeDocumentMoniker": "MampirGanWinformApp\\Presenter\\RegisterPresenter.cs",
+              "ToolTip": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Presenter\\RegisterPresenter.cs",
+              "RelativeToolTip": "MampirGanWinformApp\\Presenter\\RegisterPresenter.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T19:10:22.174Z"
+              "WhenOpened": "2025-06-13T11:38:44.295Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Auth\\LoginForm.cs",
-              "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Auth\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Auth\\LoginForm.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Auth\\LoginForm.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "LoginPresenter.cs",
+              "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Presenter\\LoginPresenter.cs",
+              "RelativeDocumentMoniker": "MampirGanWinformApp\\Presenter\\LoginPresenter.cs",
+              "ToolTip": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Presenter\\LoginPresenter.cs",
+              "RelativeToolTip": "MampirGanWinformApp\\Presenter\\LoginPresenter.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAwwDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T19:10:22.175Z"
+              "WhenOpened": "2025-06-13T11:38:29.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Program.cs",
+              "RelativeDocumentMoniker": "MampirGanWinformApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Program.cs",
+              "RelativeToolTip": "MampirGanWinformApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T11:36:37.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ListProductForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs",
+              "RelativeDocumentMoniker": "MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs",
+              "ToolTip": "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs [Design]",
+              "RelativeToolTip": "MampirGanWinformApp\\Views\\Forms\\Customer\\ListProductForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T11:36:18.327Z"
             }
           ]
         }

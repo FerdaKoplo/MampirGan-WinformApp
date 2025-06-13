@@ -29,7 +29,7 @@ namespace MampirGanWinformApp.Service.Implementation
             return _Loader.Products
              .Where(p => p.Category != null &&
              CategoryName.Any(InputCategory => p.Category.CategoryName.Equals(InputCategory, StringComparison.OrdinalIgnoreCase)))
-        .    ToList();
+        .ToList();
         }
 
         public Product GetProductById(int ProductId)

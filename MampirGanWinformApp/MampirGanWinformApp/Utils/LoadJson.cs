@@ -46,7 +46,7 @@ namespace MampirGanWinformApp.Utils
         }
     }
 
-    public class LoadCartJson 
+    public class LoadCartJson
     {
         private readonly string _FilePath;
         private readonly List<Product> _ProductList;
@@ -58,7 +58,7 @@ namespace MampirGanWinformApp.Utils
             _ProductList = ProductList;
         }
 
-        public List <Cart> Load()
+        public List<Cart> Load()
         {
             var JsonString = File.ReadAllText(_FilePath);
             Carts = JsonSerializer.Deserialize<List<Cart>>(JsonString) ?? new List<Cart>();

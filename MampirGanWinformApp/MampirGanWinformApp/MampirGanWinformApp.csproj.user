@@ -32,8 +32,5 @@
     <Compile Update="Views\Forms\Customer\ListProductForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Views\Forms\Customer\PencarianMenuForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
 </Project>
