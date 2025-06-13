@@ -31,6 +31,11 @@ namespace MampirGanWinformApp.Presenter
             _CartView.DisplayCart(Carts);
         }
 
+        public List<Cart> GetAllCarts()
+        {
+            return _CartService.GetAllCarts();
+        }
+
         public void AddToCart(int ProductId, int Quantity)
         {
             try

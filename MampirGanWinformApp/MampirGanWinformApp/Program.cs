@@ -1,3 +1,4 @@
+using MampirGanWinformApp.Views.Forms.Auth;
 using MampirGanWinformApp.Views.Forms.Customer;
 
 namespace MampirGanWinformApp

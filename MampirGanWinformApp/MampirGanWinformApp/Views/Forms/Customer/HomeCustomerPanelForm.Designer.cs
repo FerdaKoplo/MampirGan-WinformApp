@@ -34,10 +34,11 @@
             BtnListKatalog = new Button();
             label1 = new Label();
             panel2 = new Panel();
-            panel4 = new Panel();
             panel3 = new Panel();
             panel5 = new Panel();
             panel6 = new Panel();
+            panel4 = new Panel();
+            button1 = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -45,6 +46,7 @@
             // panel1
             // 
             panel1.BackColor = Color.White;
+            panel1.Controls.Add(button1);
             panel1.Controls.Add(button3);
             panel1.Controls.Add(button2);
             panel1.Controls.Add(BtnListKatalog);
@@ -56,9 +58,9 @@
             // 
             // button3
             // 
-            button3.BackColor = Color.Black;
+            button3.BackColor = Color.White;
             button3.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button3.ForeColor = Color.White;
+            button3.ForeColor = Color.Red;
             button3.Location = new Point(12, 924);
             button3.Name = "button3";
             button3.Size = new Size(308, 62);
@@ -87,7 +89,7 @@
             BtnListKatalog.Name = "BtnListKatalog";
             BtnListKatalog.Size = new Size(308, 49);
             BtnListKatalog.TabIndex = 0;
-            BtnListKatalog.Text = "List Katalog";
+            BtnListKatalog.Text = "Home";
             BtnListKatalog.UseVisualStyleBackColor = false;
             BtnListKatalog.Click += BtnListKatalog_Click;
             // 
@@ -112,14 +114,6 @@
             panel2.Size = new Size(1562, 1029);
             panel2.TabIndex = 1;
             // 
-            // panel4
-            // 
-            panel4.BackColor = Color.AntiqueWhite;
-            panel4.Location = new Point(341, 970);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(332, 37);
-            panel4.TabIndex = 2;
-            // 
             // panel3
             // 
             panel3.BackColor = Color.LightCoral;
@@ -143,6 +137,26 @@
             panel6.Name = "panel6";
             panel6.Size = new Size(1558, 45);
             panel6.TabIndex = 8;
+            // 
+            // panel4
+            // 
+            panel4.BackColor = Color.AntiqueWhite;
+            panel4.Location = new Point(341, 970);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(332, 37);
+            panel4.TabIndex = 2;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Black;
+            button1.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(12, 863);
+            button1.Name = "button1";
+            button1.Size = new Size(308, 55);
+            button1.TabIndex = 3;
+            button1.Text = "Setting";
+            button1.UseVisualStyleBackColor = false;
             // 
             // HomeCustomerPanelForm
             // 
@@ -173,5 +187,6 @@
         private Panel panel3;
         private Panel panel5;
         private Panel panel6;
+        private Button button1;
     }
 }

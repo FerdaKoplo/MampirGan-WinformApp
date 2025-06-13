@@ -6,29 +6,29 @@ using MampirGanWinformApp.Service.Interface;
 using MampirGanWinformApp.Utils;
 using MampirGanWinformApp.Views.Interfaces.Customer;
 using MampirGanWinformApp.Presenter;
+using MampirGanWinformApp.UIComponents;
 
 namespace MampirGanWinformApp.Views.Forms.Customer
 {
     public partial class CheckoutForm : Form, ICheckoutView
     {
-        private readonly Cart _Cart;
         private readonly CheckoutPresenter _CheckoutPresenter;
+        private List<Cart> _Carts;
 
-        public CheckoutForm(Cart cart)
+        public CheckoutForm(List<Cart> CartItems)
         {
             InitializeComponent();
-            _Cart = cart;
 
-            LblProductName.Text = cart.Product.ProductName;
-            LblQty.Text = $"{cart.Quantity}";
-            LblTotalPrice.Text = $"Rp {cart.TotalPriceItem}";
+            _Carts = CartItems;
+            LblTotalPrice.Text = $"Rp {CartItems.Sum(c => c.TotalPriceItem)}";
+            LblQty.Text = $"{CartItems.Sum(c => c.Quantity)} item";
 
             string JsonProductPath = "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\ProductDummy.json";
             string JsonCartPath = "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\CartData.json";
             string JsonOrderPath = "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\OrderData.json";
 
             var ProductLoader = new LoadProductListJson(JsonProductPath);
-            ProductLoader.Load(); 
+            ProductLoader.Load();
             var CartLoader = new LoadCartJson(JsonCartPath, ProductLoader.Products);
             var CartSaver = new SaveCartJson(JsonCartPath);
             var OrderSaver = new SaveOrderJson(JsonOrderPath);
@@ -52,7 +52,7 @@ namespace MampirGanWinformApp.Views.Forms.Customer
         public void ShowSuccess(string message)
         {
             MessageBox.Show(message, "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            this.Close(); 
+            this.Close();
         }
 
         public void ShowError(string message)

@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MampirGanWinformApp.Factory.Interface;
 using MampirGanWinformApp.Model;
 using MampirGanWinformApp.Presenter;
 using MampirGanWinformApp.Service.Implementation;
@@ -15,6 +14,7 @@ using MampirGanWinformApp.Service.Interface;
 using MampirGanWinformApp.UIComponents;
 using MampirGanWinformApp.Utils;
 using MampirGanWinformApp.Views.Interfaces.Customer;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
 
 namespace MampirGanWinformApp.Views.Forms.Customer
 {
@@ -22,7 +22,6 @@ namespace MampirGanWinformApp.Views.Forms.Customer
     {
         private readonly ListProductPresenter _ListProductPresenter;
         private readonly CartPresenter _CartPresenter;
-        //private readonly IViewFactory _ViewFactory;
 
         string JsonProductPath = "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\ProductDummy.json";
         string JsonCategoryPath = "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\CategoryDummy.json";
@@ -48,6 +47,14 @@ namespace MampirGanWinformApp.Views.Forms.Customer
 
             _ListProductPresenter = new ListProductPresenter(this, ProductService, CategoryService);
             _CartPresenter = new CartPresenter(this, CartService);
+
+            var CartItem = CartService.GetAllCarts();
+            var CartTotalQuantity = CartItem.Sum(Cart => Cart.Quantity);
+            var CartTotalPrice = CartItem.Sum(Cart => Cart.TotalPriceItem);
+
+
+            LblTotalQty.Text = $"{CartTotalQuantity}";
+            LblTotalPriceInCart.Text = $"Rp.{CartTotalPrice}";
 
             _ListProductPresenter.LoadAllCategories();
             _ListProductPresenter.LoadProduct();
@@ -135,7 +142,7 @@ namespace MampirGanWinformApp.Views.Forms.Customer
                 CartItem.ProductId = Cart.ProductId;
                 CartItem.ProductNameLabel = Cart.Product?.ProductName ?? "Tidak ditemukan";
                 CartItem.Quantity = $"{Cart.Quantity}";
-                CartItem.TotalPrice = $"{Cart.TotalPriceItem}";
+                CartItem.TotalPrice = $"Rp.{Cart.TotalPriceItem}";
 
                 CartItem.RemoveCartClicked += (Sender, ProductId) =>
                 {
@@ -143,16 +150,6 @@ namespace MampirGanWinformApp.Views.Forms.Customer
                     MessageBox.Show("Berhasil dihapus");
                     _CartPresenter.LoadCarts();
 
-                };
-
-                CartItem.CheckoutClicked += (Sender, ProductId) =>
-                {
-                    var CartToCheckout = Carts.FirstOrDefault(c => c.ProductId == ProductId);
-                    if (CartToCheckout != null)
-                    {
-                        ICheckoutView CheckoutView = new CheckoutForm(CartToCheckout);
-                        ((Form)CheckoutView).Show();
-                    }
                 };
 
                 flowLayoutCartPanel.Controls.Add(CartItem);
@@ -182,6 +179,20 @@ namespace MampirGanWinformApp.Views.Forms.Customer
 
         private void LblTitle_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnCheckout_Click(object sender, EventArgs e)
+        {
+            var CartItems = _CartPresenter.GetAllCarts();
+
+            ICheckoutView CheckoutView = new CheckoutForm(CartItems);
+            ((Form)CheckoutView).Show();
 
         }
     }

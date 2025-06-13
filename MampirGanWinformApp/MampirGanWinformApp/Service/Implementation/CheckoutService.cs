@@ -67,6 +67,7 @@ namespace MampirGanWinformApp.Service.Implementation
 
             var Order = new Order
             {
+                //OrderId = .Count > 0 ? _Carts.Max(Cart => Cart.ProductId) + 1 : 1,
                 Date = DateTime.Now,
                 UserId = 1,
                 OrderItem = OrderItems,

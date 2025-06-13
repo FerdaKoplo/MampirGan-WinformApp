@@ -70,10 +70,10 @@
             RemoveCartClicked?.Invoke(this, ProductId);
         }
 
-        private void BtnCheckout_Click(object sender, EventArgs e)
-        {
-            CheckoutClicked?.Invoke(this, ProductId);
-        }
+        //private void BtnCheckout_Click(object sender, EventArgs e)
+        //{
+        //    CheckoutClicked?.Invoke(this, ProductId);
+        //}
 
         private void LblTotalPrice_Click(object sender, EventArgs e)
         {

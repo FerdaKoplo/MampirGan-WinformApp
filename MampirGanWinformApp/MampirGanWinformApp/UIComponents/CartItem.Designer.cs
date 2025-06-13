@@ -33,13 +33,12 @@
             LblQty = new Label();
             LblTotalPrice = new Label();
             LblProductName = new Label();
-            BtnCheckout = new Button();
             BtnRemoveCart = new Label();
             SuspendLayout();
             // 
             // BtnDecrease
             // 
-            BtnDecrease.Location = new Point(22, 101);
+            BtnDecrease.Location = new Point(22, 63);
             BtnDecrease.Name = "BtnDecrease";
             BtnDecrease.Size = new Size(35, 37);
             BtnDecrease.TabIndex = 0;
@@ -48,7 +47,7 @@
             // 
             // BtnIncrease
             // 
-            BtnIncrease.Location = new Point(228, 101);
+            BtnIncrease.Location = new Point(228, 63);
             BtnIncrease.Name = "BtnIncrease";
             BtnIncrease.Size = new Size(35, 37);
             BtnIncrease.TabIndex = 1;
@@ -58,7 +57,7 @@
             // LblQty
             // 
             LblQty.AutoSize = true;
-            LblQty.Location = new Point(125, 107);
+            LblQty.Location = new Point(125, 69);
             LblQty.Name = "LblQty";
             LblQty.Size = new Size(22, 25);
             LblQty.TabIndex = 2;
@@ -68,7 +67,7 @@
             // 
             LblTotalPrice.AutoSize = true;
             LblTotalPrice.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            LblTotalPrice.Location = new Point(105, 161);
+            LblTotalPrice.Location = new Point(101, 127);
             LblTotalPrice.Name = "LblTotalPrice";
             LblTotalPrice.Size = new Size(70, 30);
             LblTotalPrice.TabIndex = 3;
@@ -78,24 +77,12 @@
             // LblProductName
             // 
             LblProductName.AutoSize = true;
-            LblProductName.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            LblProductName.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
             LblProductName.Location = new Point(66, 16);
             LblProductName.Name = "LblProductName";
-            LblProductName.Size = new Size(96, 38);
+            LblProductName.Size = new Size(70, 28);
             LblProductName.TabIndex = 4;
             LblProductName.Text = "label1";
-            // 
-            // BtnCheckout
-            // 
-            BtnCheckout.BackColor = Color.Black;
-            BtnCheckout.ForeColor = Color.White;
-            BtnCheckout.Location = new Point(22, 212);
-            BtnCheckout.Name = "BtnCheckout";
-            BtnCheckout.Size = new Size(241, 42);
-            BtnCheckout.TabIndex = 5;
-            BtnCheckout.Text = "Checkout";
-            BtnCheckout.UseVisualStyleBackColor = false;
-            BtnCheckout.Click += BtnCheckout_Click;
             // 
             // BtnRemoveCart
             // 
@@ -115,14 +102,13 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             Controls.Add(BtnRemoveCart);
-            Controls.Add(BtnCheckout);
             Controls.Add(LblProductName);
             Controls.Add(LblTotalPrice);
             Controls.Add(LblQty);
             Controls.Add(BtnIncrease);
             Controls.Add(BtnDecrease);
             Name = "CartItem";
-            Size = new Size(288, 275);
+            Size = new Size(284, 193);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -134,7 +120,6 @@
         private Label LblQty;
         private Label LblTotalPrice;
         private Label LblProductName;
-        private Button BtnCheckout;
         private Label BtnRemoveCart;
     }
 }

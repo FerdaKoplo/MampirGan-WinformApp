@@ -4,7 +4,7 @@
         "ProductImageUrl": null,
         "ProductName": "Indomie Goreng",
         "Price": 3000,
-        "Stock": 19,
+        "Stock": 195,
         "CategoryId": 1,
         "Category": {
             "CategoryId": 1,
@@ -17,7 +17,7 @@
         "ProductImageUrl": null,
         "ProductName": "Aqua Botol",
         "Price": 4000,
-        "Stock": 100,
+        "Stock": 95,
         "CategoryId": 2,
         "Category": {
             "CategoryId": 2,
@@ -43,7 +43,7 @@
         "ProductImageUrl": null,
         "ProductName": "Aqua Botol",
         "Price": 4000,
-        "Stock": 100,
+        "Stock": 92,
         "CategoryId": 2,
         "Category": {
             "CategoryId": 2,
