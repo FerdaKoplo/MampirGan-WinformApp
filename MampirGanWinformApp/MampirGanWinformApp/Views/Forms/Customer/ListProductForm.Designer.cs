@@ -89,12 +89,13 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(45, 153);
+            pictureBox1.Location = new Point(40, 153);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(36, 33);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 7;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // textBoxCariMenu
             // 
@@ -239,6 +240,7 @@
             FlowLayoutPanelListProduct.Name = "FlowLayoutPanelListProduct";
             FlowLayoutPanelListProduct.Size = new Size(813, 753);
             FlowLayoutPanelListProduct.TabIndex = 0;
+            FlowLayoutPanelListProduct.Paint += FlowLayoutPanelListProduct_Paint;
             // 
             // ListProductForm
             // 

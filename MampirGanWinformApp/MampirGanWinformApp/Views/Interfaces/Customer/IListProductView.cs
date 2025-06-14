@@ -11,5 +11,13 @@ namespace MampirGanWinformApp.Views.Interfaces.Customer
     {
         void DisplayProducts(List<Product> Products);
         void DisplayCategories(List<Category> Categories);
+
+
+        event EventHandler SearchMenuClicked;
+        string Keyword { get; }
+        void DisplaySearchResult(List<Product> hasil);
     }
+
 }
+
+

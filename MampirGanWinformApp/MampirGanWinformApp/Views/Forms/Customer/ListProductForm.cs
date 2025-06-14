@@ -16,6 +16,7 @@ using MampirGanWinformApp.UIComponents;
 using MampirGanWinformApp.Utils;
 using MampirGanWinformApp.Views.Interfaces.Customer;
 
+
 namespace MampirGanWinformApp.Views.Forms.Customer
 {
     public partial class ListProductForm : Form, IListProductView, ICartView
@@ -24,9 +25,12 @@ namespace MampirGanWinformApp.Views.Forms.Customer
         private readonly CartPresenter _CartPresenter;
         //private readonly IViewFactory _ViewFactory;
 
-        string JsonProductPath = "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\ProductDummy.json";
-        string JsonCategoryPath = "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\CategoryDummy.json";
-        string JsonCartPath = "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\CartData.json";
+        //string JsonProductPath = "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\ProductDummy.json";
+        string JsonProductPath = "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\ProductDummy.json";
+        //string JsonCategoryPath = "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\CategoryDummy.json";
+        string JsonCategoryPath = "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\CategoryDummy.json";
+        //string JsonCartPath = "C:\\Users\\IVAN\\Documents\\Project_C#\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\CartData.json";
+        string JsonCartPath = "C:\\Users\\Dita\\source\\repos\\MampirGan-WinformApp\\MampirGanWinformApp\\MampirGanWinformApp\\Json\\CartData.json";
 
         public ListProductForm()
         {
@@ -63,7 +67,7 @@ namespace MampirGanWinformApp.Views.Forms.Customer
 
                 Card.ProductNameLabel = Product.ProductName;
                 Card.CategoryLabel = Product.Category?.CategoryName ?? "Tidak ditemukan";
-                Card.PriceLabel = $"Rp {Product.Price: 0}";
+                Card.PriceLabel = $"Rp {Product.Price}";
                 Card.ProductDetailData = Product;
 
                 if (File.Exists(Product.ProductImageUrl))
@@ -71,7 +75,7 @@ namespace MampirGanWinformApp.Views.Forms.Customer
                     Card.ProductImage = Image.FromFile(Product.ProductImageUrl);
                 }
 
-                // passing data dari list product ke detail product melewati event DetailClicked 
+                
                 Card.DetailClicked += (State, Event) =>
                 {
                     var ClickedCard = State as ProductCard;
@@ -93,7 +97,12 @@ namespace MampirGanWinformApp.Views.Forms.Customer
                 };
 
                 FlowLayoutPanelListProduct.Controls.Add(Card);
+
+
+
             }
+
+
         }
 
         public void DisplayCategories(List<Category> Categories)
@@ -189,7 +198,57 @@ namespace MampirGanWinformApp.Views.Forms.Customer
         {
             textBoxCariMenu.Multiline = true;
             textBoxCariMenu.TextAlign = HorizontalAlignment.Center;
-            textBoxCariMenu.Font = new Font("Segoe UI", 14);
+            textBoxCariMenu.Font = new Font("Segoe UI", 12);
+            textBoxCariMenu.Height = 40;
+
+            this.textBoxCariMenu.Margin = new System.Windows.Forms.Padding(10, 0, 0, 0);
+
         }
+
+        private void FlowLayoutPanelListProduct_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            SearchMenuClicked?.Invoke(this, EventArgs.Empty);
+
+        }
+
+        public event EventHandler SearchMenuClicked;
+
+        public string Keyword => textBoxCariMenu.Text;
+
+        public void DisplaySearchResult(List<Product> hasil)
+        {
+            FlowLayoutPanelListProduct.Controls.Clear();
+
+            if (hasil.Count == 0)
+            {
+                Label kosong = new Label();
+                kosong.Text = "Tidak ada hasil pencarian.";
+                kosong.Font = new Font("Segoe UI", 8, FontStyle.Italic);
+                kosong.AutoSize = true;
+                FlowLayoutPanelListProduct.Controls.Add(kosong);
+                return;
+            }
+
+            foreach (var product in hasil)
+            {
+                var card = new ProductCard();
+                card.ProductNameLabel = product.ProductName;
+                card.PriceLabel = $"Rp {product.Price}";
+                card.ProductDetailData = product;
+
+                if (File.Exists(product.ProductImageUrl))
+                    card.ProductImage = Image.FromFile(product.ProductImageUrl);
+
+                FlowLayoutPanelListProduct.Controls.Add(card);
+            }
+
+        }
+
+
     }
 }

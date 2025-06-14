@@ -21,9 +21,11 @@ namespace MampirGanWinformApp.Presenter
         public ListProductPresenter(IListProductView ProductView, IProductService ProductService, ICategoryService CategoryService)
         {
             _ProductView = ProductView;
+            _ProductView.SearchMenuClicked += HandleSearchMenu;
             _ProductService = ProductService;
             _CategoryService = CategoryService;
             _CategoryStateMachine = new CategoryStateMachine(); 
+
         }
 
         public void LoadAllCategories()
@@ -46,5 +48,18 @@ namespace MampirGanWinformApp.Presenter
             var AllProducts = _ProductService.GetAllProducts();
             _ProductView.DisplayProducts(AllProducts);
         }
+
+        private void HandleSearchMenu(object sender, EventArgs e)
+        {
+            string keyword = _ProductView.Keyword.ToLower();
+            var allProducts = _ProductService.GetAllProducts();
+            
+            var hasil = allProducts
+                .Where(p => p.ProductName.ToLower().Contains(keyword))
+                .ToList();
+
+            _ProductView.DisplayProducts(hasil);
+        }
+
     }
 }
